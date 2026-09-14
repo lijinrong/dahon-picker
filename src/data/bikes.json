@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "kaa693",
+    "model": "KAA693",
+    "marketingName": "K3 PLUS",
+    "series": "K",
+    "status": "active",
+    "discontinuedInfo": null,
+    "wheelSize": 16,
+    "weightKg": 9.97,
+    "folding": {
+      "mechanism": "BA 四连杆快折 + 双节内折竖管,三步约 10 秒折完",
+      "foldedSize": "71×41×55cm",
+      "carryScore": 5
+    },
+    "drivetrain": { "speeds": 9, "climbScore": 2 },
+    "priceCny": 3498,
+    "priceUpdatedAt": "2026-09-14",
+    "heightRangeCm": [150, 180],
+    "useCases": ["commute", "travel"],
+    "highlights": [
+      "不到 10 公斤的 16 寸小钢炮,折叠后能塞进小轿车后备箱",
+      "55T 大牙盘起步就有速度,平路通勤很带劲"
+    ],
+    "pros": [
+      "全车铝合金,官方重量 9.97kg,提上地铁、放进后备箱都轻松",
+      "三步约 10 秒折完,折叠后 71×41×55cm 相当紧凑",
+      "前后碟刹制动力足,雨天更安心"
+    ],
+    "cons": [
+      "55T 牙盘配 11-28T 飞轮,最低齿比约 1.96,长陡坡骑起来吃力",
+      "16 寸小轮径,过减速带和坑洼路面的颠簸感比 20 寸明显"
+    ],
+    "nameDecodeOverride": null,
+    "specs": {
+      "车架": "K 型轻量化铝合金(椭圆主梁管,氩弧焊)",
+      "变速": "大行 9 速(55T 一体式牙盘 + 11-28T 飞轮)",
+      "刹车": "前后碟刹(双动碟刹)",
+      "轮组": "16 寸(349)高驱动轮组,60TPI 防刺轮胎",
+      "载重": "100kg"
+    },
+    "affiliateUrl": null,
+    "sources": [
+      "大行官网产品页 26 K3 PLUS|KAA693 https://dahon.com.cn/products/p000382",
+      "大行官网评测(参数依据:9.97kg/71×41×55cm/9速 55T+11-28T) https://dahon.com.cn/posts/x000572;新款批次约 10.25kg/71×38×55cm https://dahon.com.cn/posts/x000773",
+      "京东官方渠道在售(16英寸9速碟刹版 KAA693,银/黑 349轮组) https://www.jd.com/jiage/13185d7e8bc3da77aefc.html",
+      "价格依据:官网评测定价 3698 元(https://dahon.com.cn/posts/x000272)、大行北京专卖店 3298 元(https://www.dahon.bj.cn/?p=6141)、淘宝 3598 元,参考价取中间值 3498",
+      "评级依据:carryScore=5(16寸且官方重量 9.97kg≤10kg);climbScore=2(55T/28T 齿比下限约 1.96,高于常规城市齿比 1.2);身高区间 150-180cm 依北京专卖店页"
+    ],
+    "updatedAt": "2026-09-14"
+  }
+]

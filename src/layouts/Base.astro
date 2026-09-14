@@ -1,0 +1,23 @@
+---
+import '../styles/global.css'
+interface Props { title: string; description?: string }
+const { title, description = '4 个问题,帮你选到合适的大行折叠车。' } = Astro.props
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <noscript><p class="noscript-note">本页部分功能需要 JavaScript;型号百科与详情页可直接浏览。</p></noscript>
+    <main class="page">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>价格仅供参考,以实际渠道为准。数据更新记录见各车型页面。</p>
+    </footer>
+  </body>
+</html>
