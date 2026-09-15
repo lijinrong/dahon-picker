@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro'
+import CompareTable from '../components/CompareTable.vue'
+import { loadBikes } from '../lib/schema'
+const bikes = loadBikes()
+---
+<Base title="车型对比 · 大行选购器" description="任选 2-3 款大行折叠车横向对比,差异行高亮。">
+  <h1>车型对比</h1>
+  <CompareTable client:load bikes={bikes} />
+</Base>
