@@ -1,3 +1,4 @@
+import type { Answers } from '../src/lib/answers'
 import type { Bike } from '../src/lib/schema'
 
 export function mkBike(overrides: Partial<Bike> = {}): Bike {
@@ -24,6 +25,16 @@ export function mkBike(overrides: Partial<Bike> = {}): Bike {
     affiliateUrl: null,
     sources: ['来源A', '来源B'],
     updatedAt: '2026-09-14',
+    ...overrides,
+  }
+}
+
+export function mkAnswers(overrides: Partial<Answers> = {}): Answers {
+  return {
+    budget: '2000-4000',
+    useCase: 'commute',
+    fold: 'daily',
+    height: '170-180',
     ...overrides,
   }
 }
