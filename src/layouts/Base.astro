@@ -13,11 +13,16 @@ const { title, description = '4 个问题,帮你选到合适的大行折叠车�
   </head>
   <body>
     <noscript><p class="noscript-note">本页部分功能需要 JavaScript;型号百科与详情页可直接浏览。</p></noscript>
+    <nav class="site-nav" aria-label="主导航">
+      <a class="brand" href="/">大行选购器</a>
+      <a href="/bikes">型号百科</a>
+      <a href="/decode">型号名解读</a>
+    </nav>
     <main class="page">
       <slot />
     </main>
     <footer class="site-footer">
-      <p>价格仅供参考,以实际渠道为准。数据更新记录见各车型页面。</p>
+      <p>价格仅供参考,以实际渠道为准。各车型页面标注数据来源与更新日期。</p>
     </footer>
   </body>
 </html>
