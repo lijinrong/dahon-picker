@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro'
+import WizardFlow from '../components/WizardFlow.vue'
+import { loadBikes } from '../lib/schema'
+const bikes = loadBikes()
+---
+<Base title="为你推荐 · 大行选购器">
+  <WizardFlow client:load mode="result" :bikes="bikes" />
+</Base>
