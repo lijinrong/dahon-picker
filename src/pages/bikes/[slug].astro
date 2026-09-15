@@ -1,0 +1,89 @@
+---
+import Base from '../../layouts/Base.astro'
+import { loadBikes, loadNaming } from '../../lib/schema'
+import { decodeModel } from '../../lib/decode'
+
+export function getStaticPaths() {
+  const bikes = loadBikes()
+  return bikes.map((bike) => ({ params: { slug: bike.slug }, props: { bike } }))
+}
+
+const { bike } = Astro.props
+const naming = loadNaming()
+const decode = decodeModel(bike.model, naming, loadBikes())
+const stars = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n)
+---
+<Base
+  title={`${bike.model} ${bike.marketingName} · 参数与解读 | 大行选购器`}
+  description={`${bike.marketingName}(${bike.model}):${bike.wheelSize} 寸 / ${bike.weightKg}kg / ${bike.drivetrain.speeds} 速,参考价 ¥${bike.priceCny}。优缺点、适配身高与型号名逐位解读。`}
+>
+  <article class="bike-detail">
+    <header>
+      <h1>{bike.model}<span class="alias">{bike.marketingName}</span></h1>
+      <p class="price">
+        参考价 ¥{bike.priceCny}
+        <small>· 更新于 {bike.priceUpdatedAt.slice(0, 7)}</small>
+      </p>
+      {bike.status === 'discontinued' && (
+        <p class="empty">
+          这款已停售(最后年份约 {bike.discontinuedInfo?.year}),仅供参考对比。
+        </p>
+      )}
+      <ul class="highlights">
+        {bike.highlights.map((h) => <li class="chip">{h}</li>)}
+      </ul>
+    </header>
+
+    <section aria-labelledby="decode-heading">
+      <h2 id="decode-heading">型号名怎么读</h2>
+      {decode.matched ? (
+        <ol class="seg-list">
+          {decode.segments.map((s) => (
+            <li class="seg">
+              <span class="seg-char">{s.char}</span>
+              <span class="seg-meaning">{s.meaning ?? '—'}</span>
+              {s.note && <span class="seg-meaning">({s.note})</span>}
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p class="empty">这款的官方代码暂无完整解读规则。</p>
+      )}
+    </section>
+
+    <section aria-labelledby="specs-heading">
+      <h2 id="specs-heading">关键参数</h2>
+      <dl class="specs">
+        <div><dt>轮径</dt><dd>{bike.wheelSize} 寸</dd></div>
+        <div><dt>重量</dt><dd>{bike.weightKg}kg</dd></div>
+        <div><dt>变速</dt><dd>{bike.drivetrain.speeds} 速</dd></div>
+        <div><dt>爬坡能力</dt><dd>{stars(bike.drivetrain.climbScore)}</dd></div>
+        <div><dt>携带便利</dt><dd>{stars(bike.folding.carryScore)}</dd></div>
+        <div><dt>折叠方式</dt><dd>{bike.folding.mechanism}</dd></div>
+        <div><dt>折叠尺寸</dt><dd>{bike.folding.foldedSize}</dd></div>
+        <div><dt>适配身高</dt><dd>{bike.heightRangeCm[0]}-{bike.heightRangeCm[1]}cm</dd></div>
+        {Object.entries(bike.specs).map(([k, v]) => (
+          <div><dt>{k}</dt><dd>{v}</dd></div>
+        ))}
+      </dl>
+    </section>
+
+    <section aria-labelledby="pros-cons-heading">
+      <h2 id="pros-cons-heading">优点与缺点</h2>
+      <h3>优点</h3>
+      <ul>{bike.pros.map((p) => <li>{p}</li>)}</ul>
+      <h3>缺点</h3>
+      <ul>{bike.cons.map((c) => <li>{c}</li>)}</ul>
+    </section>
+
+    <footer>
+      <p class="rec-actions">
+        <a href={`/compare?ids=${bike.slug}`}>把这款加入对比 →</a>
+        <a href="/bikes">← 返回型号百科</a>
+      </p>
+      <p class="sources">
+        数据来源:{bike.sources.join(' · ')};更新于 {bike.updatedAt}。
+      </p>
+    </footer>
+  </article>
+</Base>
