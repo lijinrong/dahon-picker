@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro'
+import Decoder from '../components/Decoder.vue'
+import { loadBikes, loadNaming } from '../lib/schema'
+
+const naming = loadNaming()
+const bikes = loadBikes()
+const bySlug = new Map(bikes.map((b) => [b.slug, b]))
+const nicknameRows = Object.entries(naming.nicknames)
+  .map(([nick, slug]) => ({ nick, bike: bySlug.get(slug) }))
+  .filter((r): r is { nick: string; bike: (typeof bikes)[number] } => Boolean(r.bike))
+const uncertainNotes = naming.uncertain.map((u) => u.note)
+---
+<Base
+  title="大行型号名解读 · 官方代码与 K3/P8 俗称 | 大行选购器"
+  description="大行官方代码逐位解读:KAA084 每一位什么意思?K3、P8、D8 对应哪个官方型号?在线查询 + 命名体系科普。"
+>
+  <h1>型号名解读</h1>
+  <Decoder client:load naming={naming} bikes={bikes} />
+
+  <article class="decode-article">
+    <section aria-labelledby="why-messy">
+      <h2 id="why-messy">为什么大行的型号看起来这么乱?</h2>
+      <p>
+        因为你同时在面对两套名字:一套是厂家的官方代码(如 KAA084),
+        精确到具体配置,主要用于渠道和售后;另一套是玩家和商家口中的
+        俗称(如 K3),好记好传播,但一款车改版后俗称可能不变、代码却变了。
+        两套名字各有道理,叠在一起就让人晕。看懂其中规律,乱码就能变成信息。
+      </p>
+    </section>
+
+    <section aria-labelledby="how-to-read">
+      <h2 id="how-to-read">官方代码怎么读</h2>
+      <p>大行官方代码是「字母 + 数字」的组合,字母位描述系列与配置,数字位是型号编号。目前已考证的规则:</p>
+      {naming.positions.map((p) => (
+        <div>
+          <h3>第 {p.index + 1} 位:{p.dimension}</h3>
+          <dl class="specs">
+            {Object.entries(p.map).map(([char, meaning]) => (
+              <div><dt>{char}</dt><dd>{meaning}</dd></div>
+            ))}
+          </dl>
+        </div>
+      ))}
+      {uncertainNotes.length > 0 && (
+        <div class="empty">
+          <strong>诚实说明:</strong>
+          <ul>{uncertainNotes.map((n) => <li>{n}</li>)}</ul>
+        </div>
+      )}
+    </section>
+
+    <section aria-labelledby="nicknames">
+      <h2 id="nicknames">市场俗称对照表</h2>
+      <p>商家和骑友嘴里的名字 → 官方代码:</p>
+      <dl class="specs">
+        {nicknameRows.map((r) => (
+          <div>
+            <dt>{r.nick}</dt>
+            <dd><a href={`/bikes/${r.bike.slug}`}>{r.bike.model}</a>({r.bike.marketingName})</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+
+    <section aria-labelledby="mistakes">
+      <h2 id="mistakes">三个常见误区</h2>
+      <ol>
+        <li><strong>「K3 就是某一款车」</strong>——不一定。俗称跨年份、跨改版沿用,买配件或查参数时要落到官方代码。</li>
+        <li><strong>「数字越大越高级」</strong>——数字位是编号不是等级,系列字母和配置位才决定档次。</li>
+        <li><strong>「同名就是同款」</strong>——不同年份的同名车配置可能不同,以官方代码和当年参数页为准。</li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="faq">
+      <h2 id="faq">常见问题</h2>
+      <dl class="specs">
+        <div><dt>为什么我搜到的代码这里查不到?</dt><dd>可能是海外款、停售老款或拼写错误。本站收录国内在售款,可先用相似建议纠正拼写。</dd></div>
+        <div><dt>官方代码哪里看?</dt><dd>车架立管内侧或五通下方通常有钢印,购买页面标题里一般也会写全。</dd></div>
+        <div><dt>这些解读规则权威吗?</dt><dd>整理自官方资料与多个公开渠道交叉验证;官方未公开的位次我们明确标注「未公开」,不猜。</dd></div>
+      </dl>
+    </section>
+  </article>
+</Base>
