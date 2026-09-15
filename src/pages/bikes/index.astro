@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro'
+import BikeTable from '../../components/BikeTable.vue'
+import { loadBikes } from '../../lib/schema'
+const bikes = loadBikes()
+---
+<Base title="型号百科 · 大行选购器" description="全部在售大行折叠车一览:按轮径、价格、用途筛选对比。">
+  <h1>型号百科</h1>
+  <p>国内在售大行折叠车,共 {bikes.filter(b => b.status === 'active').length} 款。点进详情看参数与型号名解读。</p>
+  <BikeTable client:load bikes={bikes} />
+</Base>
