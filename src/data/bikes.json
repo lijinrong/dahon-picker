@@ -1306,7 +1306,7 @@
       "speeds": 9,
       "climbScore": 2
     },
-    "priceCny": 3898,
+    "priceCny": 3298,
     "heightRangeCm": [
       140,
       180
@@ -1326,7 +1326,7 @@
     ],
     "cons": [
       "55T 大盘配 11-28T,陡坡吃力",
-      "油碟版大陆售价不透明(本条目为保守价)",
+      "官方大陆价锚点为 2023 双 11 活动页的 2023 款口径,Pro 油碟版现售价待核",
       "窄胎路况适应性一般"
     ],
     "specs": {
@@ -1338,7 +1338,7 @@
     "sources": [
       "大行官网产品页 25 PAA693 Pro|PAA693 https://dahon.com.cn/products/p000358",
       "官网评测 2025-12(2025 款 MU P9 实测 10.9kg,77×38×67,349 轮,55T+11-28T,彦豪油碟) https://dahon.com.cn/posts/x000881",
-      "价格依据:老款 PAA693 渠道价约 3398-3898,取保守上限 3898(Pro 油碟版实际或更高,台账注明);京东 P9/PAA693 在售 https://www.jd.com/jiage/1318f78403c6950c7cf1.html",
+      "价格依据:官方双 11 活动文大陆价 AIRSPEED「 PAA693 」活动价 ¥3098/原价 ¥3298,按台账同页既有条目惯例取原价 3298(https://dahon.com.cn/posts/x000473,2023-10-26;该锚点为 2023 款 AIRSPEED 口径,本条目为 2025 款 PAA693 Pro 油碟版,现售价或更高,待门店核实);京东 P9/PAA693 在售 https://www.jd.com/jiage/1318f78403c6950c7cf1.html;港版 HK$4,280-4,880 佐证",
       "评级依据:carryScore=4(16 寸 10.9kg,略超 10kg 门槛按重量段类推);climbScore=2(55/28≈1.96);身高 140-180cm 为渠道口径"
     ],
     "status": "active",
@@ -1364,7 +1364,7 @@
       "speeds": 5,
       "climbScore": 2
     },
-    "priceCny": 3698,
+    "priceCny": 3398,
     "heightRangeCm": [
       150,
       180
@@ -1385,7 +1385,7 @@
     "cons": [
       "5 速齿比窄,坡道城市吃力",
       "16 寸小轮高速稳定性一般",
-      "大陆售价不透明(保守估算价)"
+      "官方大陆价出自 2023 双 11 活动页,现售口径待门店核实"
     ],
     "specs": {
       "车架": "4130 Cr-Mo 铬钼钢细管车架+马甲线",
@@ -1396,7 +1396,7 @@
       "大行官网产品页 24 BOARDWALK D5|HAC653 https://dahon.com.cn/products/p000251",
       "官网评测(16 寸车型,5 速定制,4130 钢架) https://dahon.com.cn/posts/x000360",
       "重量 10.07kg/折叠 64×28×60 为香港渠道口径(大陆官方未公布,台账注明) https://dahon.com.cn/posts/x000293",
-      "价格依据:香港 HK$4,380(约合 4,000 元;dahon.com.hk 商品页 https://www.dahon.com.hk/products/dahon-boardwalk-d5-hac653-folding-bike,页面现另有促销价 HK$3,380)及'大陆价与 K3 PLUS 相近'口径,保守取 3698(估算,台账注明;汇率 2026-09-14 近似 1 HKD≈0.92 CNY,按取整金额反推)",
+      "价格依据:官方双 11 活动文大陆价 BOARDWALK D5「 HAC653 」活动价 ¥3098/原价 ¥3398,按台账同页既有条目惯例取原价 3398(https://dahon.com.cn/posts/x000473,2023-10-26,现售口径待门店核实);香港行货 HK$4,380≈¥4,000 佐证(dahon.com.hk 商品页 https://www.dahon.com.hk/products/dahon-boardwalk-d5-hac653-folding-bike,页面现另有促销价 HK$3,380;汇率 2026-09-14 近似 1 HKD≈0.92 CNY,按取整金额反推)",
       "评级依据:carryScore=4(16 寸 10.07kg,差 0.07kg 未达 5 分门槛);climbScore=2 保守评级('没有夸张的齿比',按 5 速平路定位);身高区间按 16 寸小架推算"
     ],
     "status": "active",
@@ -1655,7 +1655,7 @@
       "speeds": 1,
       "climbScore": 2
     },
-    "priceCny": 6398,
+    "priceCny": 7000,
     "heightRangeCm": [
       150,
       180
@@ -1689,7 +1689,7 @@
     "sources": [
       "大行官网产品页 23 大驾行|KEA411RM https://dahon.com.cn/products/p000222",
       "官网评测(18.9kg,65×35.5×65,载重 105kg,48V250W,16T 单速,14 寸宽胎) https://dahon.com.cn/posts/x000533",
-      "价格依据(估算):官方双 11 电助力档位价——UNIO E16(电助力)KEA693CM 活动价 6398(原价 7198,官方活动文 https://dahon.com.cn/posts/x000473)与 K-ONE 电助力港价约 6100 相参照,取 6398;大陆实售价待门店核实,台账注明",
+      "价格依据(估算):官方渠道查无大驾行大陆报价——官网产品页为 ¥0 询价制(https://dahon.com.cn/products/p000222),官方双 11 活动文(https://dahon.com.cn/posts/x000473)价格表无 KEA411RM/大驾行条目;按已核锚点推导:同页唯一电助力 UNIO E16(KEA693CM)活动价 8298/原价 8698,K-ONE 电助力(FEA071RM,36V5Ah)香港行货 HK$6,670≈6100(https://11boy.com.hk/product/10/KONE-5AH);大驾行 48V20Ah 电池容量远高于 K-ONE、代驾单速配置定位低于 UNIO E16,取区间中段 7000;大陆实售价待门店核实,台账注明",
       "评级依据:carryScore=2(18.9kg>12.5kg);climbScore=2(机械单速,电助力弥补但保守评 2 并注明);身高 150-180cm 按 14 寸小架推算"
     ],
     "status": "active",
