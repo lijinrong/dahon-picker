@@ -13,11 +13,20 @@
       "foldedSize": "71×41×55cm",
       "carryScore": 5
     },
-    "drivetrain": { "speeds": 9, "climbScore": 2 },
+    "drivetrain": {
+      "speeds": 9,
+      "climbScore": 2
+    },
     "priceCny": 3498,
     "priceUpdatedAt": "2026-09-14",
-    "heightRangeCm": [150, 180],
-    "useCases": ["commute", "travel"],
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "commute",
+      "travel"
+    ],
     "highlights": [
       "不到 10 公斤的 16 寸小钢炮,折叠后能塞进小轿车后备箱",
       "55T 大牙盘起步就有速度,平路通勤很带劲"
@@ -48,5 +57,1705 @@
       "评级依据:carryScore=5(16寸且官方重量 9.97kg≤10kg);climbScore=2(55T/28T 齿比下限约 1.96,高于常规城市齿比 1.2);身高区间 150-180cm 依北京专卖店页"
     ],
     "updatedAt": "2026-09-14"
+  },
+  {
+    "slug": "cuc673",
+    "model": "CUC673",
+    "marketingName": "LUNDEN M7",
+    "series": "C",
+    "wheelSize": 16,
+    "weightKg": 13.0,
+    "folding": {
+      "mechanism": "三折叠结构(座管/竖管/车架三段收折),折叠后自带辅助轮可推行",
+      "foldedSize": "66×35×62cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 7,
+      "climbScore": 2
+    },
+    "priceCny": 5998,
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "三折叠设计,折叠后 66×35×62cm 还能立着推着走",
+      "复古拼色涂装+棕色皮质坐垫,颜值在 16 寸小折里独一档"
+    ],
+    "pros": [
+      "三折叠后体积小,自带辅轮可推行,进出地铁电梯从容",
+      "铬钼钢车架+马甲线+超级下管,骑乘稳定不松散",
+      "皮质坐垫/同色把套/银色指拨等细节搭配精致"
+    ],
+    "cons": [
+      "官方口径整车约 13kg,在 16 寸车里偏沉,搬上楼不轻松",
+      "7 速齿比范围有限,长坡明显吃力",
+      "三折叠步骤比传统对折多,初次上手需要练习"
+    ],
+    "specs": {
+      "车架": "铬钼钢三折叠车架(DELTECH 马甲线+超级下管)",
+      "变速": "7 速(50T 牙盘+11-32T 飞轮)",
+      "轮组": "16 寸半光头胎(黄边)",
+      "坐垫": "棕色复古皮质面"
+    },
+    "sources": [
+      "大行官网产品页 26 LUNDEN 16寸|CUC673 https://dahon.com.cn/products/p000402",
+      "官网体验文(约13kg,66×35×62,7速 50T+11-32T,铬钼钢架) https://dahon.com.cn/posts/x000980",
+      "官网测评(实测整重 11.15kg 带脚踏;与 13kg 口径差异系批次/称重口径,保守取多数官方文章的 13kg) https://dahon.com.cn/posts/x000962",
+      "价格依据:官方定价 5998 元,京东旗舰店同价在售(Lunden M7 三折叠 CUC673 多配色) https://www.jd.com/xinkuan/1318c75edca91e727eea.html",
+      "评级依据:carryScore=2(16 寸但 13kg>12.5kg);climbScore=2(50/32≈1.56 齿比偏高);身高区间 150-180cm 按 16 寸小架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "fka091",
+    "model": "FKA091",
+    "marketingName": "K-ONE",
+    "series": "F",
+    "wheelSize": 20,
+    "weightKg": 12.56,
+    "folding": {
+      "mechanism": "K 型车架对折+双节竖管内折",
+      "foldedSize": "88×38×69cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 9,
+      "climbScore": 2
+    },
+    "priceCny": 2798,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "'一'字形单梁铝架+前后碟刹,不到三千块的入门即到位",
+      "官方大促到手 2598 元,预算有限也能上正规大行"
+    ],
+    "pros": [
+      "铝合金碟刹车架+9 速,配置在这个价位很均衡",
+      "官方评测车架刚性好,起步发力直接",
+      "京东 1000+ 评价,渠道成熟售后省心"
+    ],
+    "cons": [
+      "12.5kg 上下的重量不算轻,提携表现一般",
+      "52T 大盘配 11-32T 飞轮,陡坡还是费力",
+      "座垫/把套等细节用料为成本让了路"
+    ],
+    "specs": {
+      "车架": "铝合金'一'字形碟刹车架(马甲线)",
+      "变速": "大行定制 9 速(52T 牙盘+11-32T 飞轮)",
+      "刹车": "前后碟刹",
+      "载重": "105kg"
+    },
+    "sources": [
+      "大行官网产品页 26 K-ONE|FKA091 https://dahon.com.cn/products/p000366",
+      "官网评测(12.56kg,88×38×69,9 速 11-32T) https://dahon.com.cn/posts/x000607",
+      "官网开箱(官方标注 12kg/实称 11.8kg,口径差异已注明) https://dahon.com.cn/posts/x000309",
+      "价格依据:官方原价 2798 元、双 11 到手 2598 元 https://dahon.com.cn/posts/x000473 ;京东 K 折叠车价格页在售(1000+ 评价) https://www.jd.com/jiage/131813fe8e6ea8f5bdc4.html",
+      "评级依据:carryScore=2(20 寸 12.56kg 超 12.5kg 边界,保守评 2;若按实称 11.8kg 应为 3,已注明);climbScore=2(52/32≈1.63 齿比偏高);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kac083",
+    "model": "KAC083",
+    "marketingName": "SPEED P18",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 12.0,
+    "folding": {
+      "mechanism": "KC 四连杆接头对折+铝合金双节竖管",
+      "foldedSize": "80×39×66cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 18,
+      "climbScore": 2
+    },
+    "priceCny": 4398,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "sport"
+    ],
+    "highlights": [
+      "P8 平台的进阶速度款:SORA 18 速平把套件,城郊 30km 高速骑行利器",
+      "铬钼钢 K 架+马甲线,速度上到 35km/h 依然稳"
+    ],
+    "pros": [
+      "SHIMANO SORA 2×9 套件档位绵密,换挡干脆",
+      "平把设定比弯把好上手,通勤竞速两相宜",
+      "4130 铬钼钢架滤震舒适,长期骑不遭罪"
+    ],
+    "cons": [
+      "54/46T 配 11-25T 齿比偏高,爬陡坡费腿",
+      "V 刹在雨天长下坡制动信心一般",
+      "12kg 出头,搬动不算轻"
+    ],
+    "specs": {
+      "车架": "4130 Cr-Mo 铬钼钢 K 架+轻量化铝前叉+马甲线",
+      "变速": "SHIMANO SORA 前 2 后 9=18 速(54/46T 链盘+11-25T 飞轮)",
+      "刹车": "V 刹",
+      "轮组": "406 铝轮+1.35 细纹胎"
+    },
+    "sources": [
+      "大行官网产品页 26 SPEED P18|KAC083 https://dahon.com.cn/products/p000395",
+      "官网对比实测(带脚踏 12kg,80×39×66,54/46T+11-25T,406 轮,V 夹) https://dahon.com.cn/posts/x000835",
+      "官网评测(SORA 18 速,4130 车架,7075 一体链盘) https://dahon.com.cn/posts/x000818",
+      "价格依据:京东约 4398(活动 4318,紫色款在售) https://item.m.jd.com/product/100082791669.html ;北京专卖店 3999(旧口径 11.9kg/30×77×64,已注明差异) https://www.dahon.bj.cn/?p=1570",
+      "评级依据:carryScore=3(20 寸 12kg 处于 11-12.5kg 段);climbScore=2(46/25=1.84 齿比偏高);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "paa003",
+    "model": "PAA003",
+    "marketingName": "MU P10",
+    "series": "P",
+    "wheelSize": 20,
+    "weightKg": 11.9,
+    "folding": {
+      "mechanism": "海豚架对折+双节内 V 竖管",
+      "foldedSize": "81×38×67cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 10,
+      "climbScore": 2
+    },
+    "priceCny": 3998,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "sport"
+    ],
+    "highlights": [
+      "海豚架经典造型,铝架 10 速里的均衡之选",
+      "马甲线+超级下管加持,踩踏效率同价位名列前茅"
+    ],
+    "pros": [
+      "海豚铝架平焊工艺,造型经典耐看",
+      "10 速+11-32T 城市通勤够用",
+      "官方评测口碑扎实,系列保有量大"
+    ],
+    "cons": [
+      "官方未公布牙盘规格,不同批次变速配置或有差异",
+      "11.9kg 中规中矩,女生搬动略吃力",
+      "高速稳定性不如 451 大轮车型"
+    ],
+    "specs": {
+      "车架": "铝合金海豚车架(马甲线+超级下管)",
+      "变速": "大行设计 10 速(11-32T 飞轮;牙盘官方未注明)",
+      "刹车": "V 刹(另有油碟版在售)",
+      "轮组": "20 寸定制防刺胎"
+    },
+    "sources": [
+      "大行官网产品页 26 MU P10|PAA003 https://dahon.com.cn/products/p000400",
+      "官网文章(11.9kg,81×38×67,10 速 11-32T,海豚架) https://dahon.com.cn/posts/x000998",
+      "官网评测(早期批次 11.35kg,长 83×高 66.5) https://dahon.com.cn/posts/x000666",
+      "价格依据:京东活动价 3998/日常约 4000(在售 500+ 评价) https://www.jd.com/jiage/1318e84e58aa7442f4ae.html ;值友价低至 3488 https://www.smzdm.com/p/154628027/",
+      "评级依据:climbScore=2 为保守评级(齿比未公布,按 10 速+11-32T 城市定位);carryScore=3(20 寸 11.9kg);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "pka015",
+    "model": "PKA015",
+    "marketingName": "MU PRO",
+    "series": "P",
+    "wheelSize": 20,
+    "weightKg": 10.4,
+    "folding": {
+      "mechanism": "海豚架对折+可调双束仔立管",
+      "foldedSize": "长82×高65cm(官方未公布宽度)",
+      "carryScore": 4
+    },
+    "drivetrain": {
+      "speeds": 11,
+      "climbScore": 2
+    },
+    "priceCny": 12398,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "sport"
+    ],
+    "highlights": [
+      "SRAM RIVAL 11 速+碟刹的 20 寸竞速机器,海豚架旗舰",
+      "10.4kg 的碟刹整车,速度与便携兼得"
+    ],
+    "pros": [
+      "RIVAL 11 速套件换挡干脆,竞速齿比绵密",
+      "轮组升级空间大(可上 Kinetix Pro X+XD 塔基 9T 小齿)",
+      "碟刹配置在高速竞速小折里可靠性好"
+    ],
+    "cons": [
+      "万元以上售价,已逼近碳纤车型价位段",
+      "54T 大盘配 11-28T,爬坡齿比偏高",
+      "竞速取向坐垫偏硬,长途舒适度一般"
+    ],
+    "specs": {
+      "车架": "铝合金海豚车架(平焊补土工艺)",
+      "变速": "SRAM RIVAL 1×11 速(54T 定制牙盘+11-28T 飞轮,可升级 XD 塔基)",
+      "刹车": "TRP SPYKE 线拉碟刹(高配为油碟)",
+      "轮组": "20 寸(可升级 451 碳轮)"
+    },
+    "sources": [
+      "大行官网产品页 26 MU PRO|PKA015 https://dahon.com.cn/products/p000368",
+      "官网评测(MU PRO 碟刹版:10.4kg,长 82 高 65,RIVAL 11 速+TRP SPYKE) https://dahon.com.cn/posts/x000676",
+      "官网评测(同码 MU LX:9.8kg,54T+11-28T,UT 后拨) https://dahon.com.cn/posts/x000334",
+      "价格依据:京东油碟版历史价 12398 https://item.m.jd.com/product/10233452807203.html ;同码 MU LX 官方双 11 为 8198(原 8598),台账注明配置版本价差",
+      "评级依据:carryScore=4(20 寸 10.4kg≤11kg);climbScore=2(54/28≈1.93 齿比偏高);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "hac003",
+    "model": "HAC003",
+    "marketingName": "BOARDWALK D10",
+    "series": "H",
+    "wheelSize": 20,
+    "weightKg": 11.7,
+    "folding": {
+      "mechanism": "圆管车架对折+铝合金可调双节竖管",
+      "foldedSize": "82×36×63cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 10,
+      "climbScore": 2
+    },
+    "priceCny": 3688,
+    "heightRangeCm": [
+      140,
+      195
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "复古英伦颜值天花板:电镀银/橄榄绿+手工真皮把套+棕色边胎",
+      "铬钼钢圆管车架,骑起来比照片更有味道"
+    ],
+    "pros": [
+      "复古涂装+抛光曲柄,质感在同价位少有",
+      "10 速齿比城市骑行够用",
+      "京东 1000+ 评价,口碑成熟"
+    ],
+    "cons": [
+      "1.35 窄胎+复古座垫,坑洼路面舒适性一般",
+      "53T 链盘配 11-32T,陡坡吃力",
+      "11.5-11.7kg 不算轻,电镀涂装维护要上心"
+    ],
+    "specs": {
+      "车架": "4130 Cr-Mo 圆管车架+轻量化铝前叉+马甲线",
+      "变速": "大行设计 10 速(复古 53T 链盘+11-32T 飞轮)",
+      "刹车": "SRAM FR5 刹把+DAHON 专用 V 刹",
+      "轮组": "轻量化 4 培林轮组+复古棕色边防刺胎"
+    },
+    "sources": [
+      "大行官网产品页 26 BOARDWALK D10|HAC003 https://dahon.com.cn/products/p000398",
+      "官网测评(11.7kg,长 80 高 66,10 速 11-32T) https://dahon.com.cn/posts/x000986",
+      "官网横评(实测 11.5kg,82×36×63,适配 140-195cm) https://dahon.com.cn/posts/x000982",
+      "价格依据:京东页面价 3688(满减到手约 3608,在售 1000+ 评价) https://www.jd.com/jiage/131885d33725f0be007a.html",
+      "评级依据:carryScore=3(20 寸 11.7kg 处于 11-12.5kg 段);climbScore=2(53/32≈1.66 齿比偏高);身高 140-195cm 为官方横评口径"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "hac071",
+    "model": "HAC071",
+    "marketingName": "BOARDWALK D7",
+    "series": "H",
+    "wheelSize": 20,
+    "weightKg": 12.4,
+    "folding": {
+      "mechanism": "圆管车架对折+双节竖管",
+      "foldedSize": "70×38×60cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 7,
+      "climbScore": 2
+    },
+    "priceCny": 2928,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "不到三千元的英伦复古入门款,京东官方旗舰店常青款",
+      "Shimano 7 速+12.3kg,城市松弛感骑行的性价比之选"
+    ],
+    "pros": [
+      "价格亲民,京东叠加优惠到手 2600 元上下",
+      "Shimano 7 速系统可靠耐用",
+      "复古涂装+立体铭牌,颜值在线"
+    ],
+    "cons": [
+      "7 速齿比范围小,坡多的城市费力",
+      "12.3kg 提上地铁略沉",
+      "V 刹雨天制动力打折扣"
+    ],
+    "specs": {
+      "车架": "4130 Cr-Mo 铬钼钢车架+马甲线",
+      "变速": "SHIMANO 7 速(螺旋式 7 速飞轮)",
+      "刹车": "铝合金 V 刹",
+      "轮组": "大行定制 20 寸轮组"
+    },
+    "sources": [
+      "大行官网产品页 26 BOARDWALK D7|HAC071 https://dahon.com.cn/products/p000377",
+      "官网文章(12.3kg,SHIMANO 7 速,不到 3000 元) https://dahon.com.cn/posts/x000992",
+      "官网文章(12.4kg,70×38×60,载重 105kg) https://dahon.com.cn/posts/x000553",
+      "价格依据:京东官方旗舰店页面价 2928/满减后 2847,叠加补贴低至 2648 https://www.jd.com/jiage/131885d33725f0be007a.html",
+      "评级依据:carryScore=3(20 寸 12.4kg);climbScore=2 保守评级(齿比未公布,按 7 速城市定位);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kaa015",
+    "model": "KAA015",
+    "marketingName": "ARCHER GT",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 11.13,
+    "folding": {
+      "mechanism": "2 代暴龙接头对折(三层锯齿咬合)+双节内折竖管",
+      "foldedSize": "78×38×68cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 11,
+      "climbScore": 2
+    },
+    "priceCny": 6198,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "sport"
+    ],
+    "highlights": [
+      "30 周年纪念典藏版:黑金涂装+创始人签名,情怀拉满",
+      "105 级 11 速后拨+2 代暴龙接头,20 寸五级车里的典藏款"
+    ],
+    "pros": [
+      "SHIMANO 105 11 速套件,换挡有高级感",
+      "2 代暴龙接头三层锯齿咬合,折叠锁定扎实",
+      "54T 正负齿一体链盘,掉链概率大幅降低"
+    ],
+    "cons": [
+      "纪念版定价有溢价,同价位可看碳纤入门款",
+      "54T 大盘配 11-34T,长陡坡依然吃力",
+      "黑金涂装张扬,低调党慎入"
+    ],
+    "specs": {
+      "车架": "30 周年纪念版专用铝合金 K 架(黑金)+马甲线",
+      "变速": "SHIMANO 105 11 速后拨+SL-RS700 指拨(54T 正负齿一体链盘+11-34T 飞轮)",
+      "折叠": "2 代暴龙接头(快拆手柄下置)",
+      "载重": "105kg"
+    },
+    "sources": [
+      "大行官网产品页 26 ARCHER GT|KAA015 https://dahon.com.cn/products/p000394",
+      "官网评测(11.13kg,780×380×680mm,105 11 速+11-34T,载重 105kg) https://dahon.com.cn/posts/x000379",
+      "价格依据:30 周年纪念系列官方 6198 元起(什么值得买报道);京东在售约 5878 https://www.jd.com/hprm/1318ff0d750818c1df77.html",
+      "评级依据:carryScore=3(20 寸 11.13kg);climbScore=2(54/34≈1.59 齿比偏高);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kbc083",
+    "model": "KBC083",
+    "marketingName": "ARCHER P8",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 12.6,
+    "folding": {
+      "mechanism": "KC 四连杆接头对折+大板扣锁紧+铝合金可调双节竖管",
+      "foldedSize": "83×35×68cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 8,
+      "climbScore": 2
+    },
+    "priceCny": 3498,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "travel"
+    ],
+    "highlights": [
+      "全球销量百万的'折叠车尽头是 P8',20 年迭代常青款",
+      "SRAM X7 8 速+世文胖胎,一车覆盖通勤/郊游/4+2"
+    ],
+    "pros": [
+      "均衡皮实,改装件生态是所有折叠车里最丰富的",
+      "马甲线+超级下管,踩踏刚性是同级标杆",
+      "Schwalbe Motion 2.0 胖胎滤震,城市舒适性好"
+    ],
+    "cons": [
+      "实测 12.6kg,搬运表现在同级里不占优",
+      "53T/32T 齿比偏高,长陡坡费力",
+      "V 刹配置,想要碟刹需加钱上 PRO/GT"
+    ],
+    "specs": {
+      "车架": "铬钼钢 K 架+马甲线+超级下管",
+      "变速": "SRAM X7 8 速(53T 链盘+11-32T 飞轮,转把)",
+      "刹车": "铝杆 V 刹",
+      "轮组": "20×2.0 Schwalbe Motion 胖胎(前 2 后 4 培林快拆)"
+    },
+    "sources": [
+      "大行官网产品页 26 ARCHER P8|KBC083 https://dahon.com.cn/products/p000371",
+      "官网评测 2025-11(实测 12.6kg,83×35×68,常规款定价 3498,X7 8 速) https://dahon.com.cn/posts/x000864",
+      "官网横评 2025-11(12.5kg,81×34×68,Schwalbe Motion) https://dahon.com.cn/posts/x000866",
+      "官网评测(2024 口径 12.83kg,长 79 高 67) https://dahon.com.cn/posts/x000586",
+      "评级依据:carryScore=2(实测 12.6kg 超 12.5kg 边界;官方口径 12.5-12.83 区间,保守评 2 并注明);climbScore=2(53/32≈1.66);身高区间按 20 寸标准架推算;京东多条在售 https://www.jd.com/jiage/1318eebeb0a2d383aed1.html"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kba005",
+    "model": "KBA005",
+    "marketingName": "ARCHER PRO",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 11.98,
+    "folding": {
+      "mechanism": "BA 四连杆接头对折+双节内 V 竖管(加宽镂空束环)",
+      "foldedSize": "82×36×67cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 20,
+      "climbScore": 2
+    },
+    "priceCny": 5598,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "sport"
+    ],
+    "highlights": [
+      "TIAGRA 20 速+牛顿内移油碟,20 寸五级车里的性价比旗舰",
+      "46/56T 双盘+11-32T,通勤和竞速一套通吃"
+    ],
+    "pros": [
+      "牛顿内移油压碟刹,雨天制动信心足",
+      "20 速齿比绵密,配速好找",
+      "带气压表打气筒座管等细节实用"
+    ],
+    "cons": [
+      "5598 元起售,预算门槛不低",
+      "11.98kg 在油碟车里中规中矩",
+      "黑白渐变涂装挑人"
+    ],
+    "specs": {
+      "车架": "K 系列铝合金碟刹车架+马甲线",
+      "变速": "SHIMANO TIAGRA 前 2 后 10=20 速(46/56T 中空一体链盘+11-32T 飞轮)",
+      "刹车": "牛顿内移油压碟刹",
+      "轮组": "轻量化 4 培林碟刹轮组+SCHWALBE MARATHON 防刺胎"
+    },
+    "sources": [
+      "大行官网产品页 26 ARCHER PRO|KBA005 https://dahon.com.cn/products/p000369",
+      "官网评测 2025-08(11.98kg,82×36×67,46/56T+11-32T,牛顿油碟) https://dahon.com.cn/posts/x000819",
+      "官网评测 2023(约 12kg,80×40×65,售价 5598) https://dahon.com.cn/posts/x000320",
+      "价格依据:官方评测定价 5598 元;77bike 车友论坛 20 寸五级车价格阶梯佐证(KBA005 五千多) http://bbs.77bike.com",
+      "评级依据:carryScore=3(20 寸 11.98kg);climbScore=2(46/32=1.44 齿比偏高);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kdc083",
+    "model": "KDC083",
+    "marketingName": "ARCHER P18",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 11.8,
+    "folding": {
+      "mechanism": "KC 四连杆接头对折+双束仔锁紧(弯把需调整位置)",
+      "foldedSize": "81×40×66cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 18,
+      "climbScore": 2
+    },
+    "priceCny": 6498,
+    "heightRangeCm": [
+      160,
+      195
+    ],
+    "useCases": [
+      "sport",
+      "commute"
+    ],
+    "highlights": [
+      "能折叠的'公路车':弯把+451 大轮+SORA 大套,一车双态",
+      "717 京东骑行节折叠车组冠军同款平台(P18 Ultra 同代)"
+    ],
+    "pros": [
+      "560mm 公路弯把多样握姿,破风姿态到位",
+      "451 轮组巡航效率高,高速稳定",
+      "SORA 原装 C 夹制动手感扎实"
+    ],
+    "cons": [
+      "弯把折叠/展开比平把慢,要先调双束仔",
+      "36/25 最低齿比 1.44,爬坡吃力",
+      "竞速几何对腰背柔韧性有要求"
+    ],
+    "specs": {
+      "车架": "铬钼钢 K 架+马甲线(P18 Ultra 同代配置)",
+      "变速": "SHIMANO SORA 大套 前 2 后 9=18 速(52/36T+11-25T)",
+      "刹车": "SORA 原装 C 夹",
+      "轮组": "451 铝轮+1 3/8 半光头胎",
+      "把横": "560mm 公路弯把(25.4mm 管径,双束仔锁紧)"
+    },
+    "sources": [
+      "大行官网产品页 26 Archer P18|KDC083 https://dahon.com.cn/products/p000309",
+      "官网对比实测 2025-09(11.8kg 带脚踏,81×40×66,52/36+11-25T,451 轮,SORA C 夹) https://dahon.com.cn/posts/x000835",
+      "官网文章(官方小程序原价 6498/领券 5798 购入 P18 Ultra) https://dahon.com.cn/posts/x000794",
+      "官网评测(同码初代 2024:SORA 2×9+11-28T,81×40×66;同码跨年配置演变已在台账注明) https://dahon.com.cn/posts/x000678",
+      "评级依据:carryScore=3(20 寸 11.8kg);climbScore=2(36/25=1.44 齿比偏高);身高 160-195cm 按弯把竞速车型保守推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "eda025",
+    "model": "EDA025",
+    "marketingName": "VIGOR LT",
+    "series": "E",
+    "wheelSize": 20,
+    "weightKg": 11.0,
+    "folding": {
+      "mechanism": "E 架对折+双节竖管",
+      "foldedSize": "81×37×65.5cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 22,
+      "climbScore": 2
+    },
+    "priceCny": 12598,
+    "heightRangeCm": [
+      140,
+      185
+    ],
+    "useCases": [
+      "sport",
+      "commute"
+    ],
+    "highlights": [
+      "105 后拨 22 速+451 轮组,'快车道'加持的高端竞速小折",
+      "E 型铝架水注管工艺,速度之美的高端答卷"
+    ],
+    "pros": [
+      "Shimano 105 22 速,变速级别跨档",
+      "52/36T 标准公路盘,巡航效率高",
+      "TIAGRA C 夹+定制 451 星芒轮组,配置整齐"
+    ],
+    "cons": [
+      "1.2 万元级售价,已到碳纤车价位段",
+      "36/28 最低齿比 1.29,大坡要摇车",
+      "C 夹轮圈刹车,泥水路况制动打折"
+    ],
+    "specs": {
+      "车架": "E 型航空铝合金架(异形水注管)+马甲线",
+      "变速": "SHIMANO 105 后拨+RS700 指拨 2×11=22 速(52/36T 双盘+11-28T 飞轮)",
+      "刹车": "SHIMANO TIAGRA C 夹",
+      "轮组": "定制 451 星芒编法培林轮组"
+    },
+    "sources": [
+      "大行官网产品页 26 VIGOR LT|EDA025 https://dahon.com.cn/products/p000393",
+      "官网评测(11kg,长 81 高 65.5,105 22 速,52/36+11-28,TIAGRA C 夹,451 轮) https://dahon.com.cn/posts/x000806",
+      "价格依据:北京大行专卖店标价 12598 元 http://m.my-dahon.com/h-pd-1031.html ;京东在售(22 速 VIGOR LT) https://www.jd.com/jiage/131885d33725f0be007a.html",
+      "评级依据:carryScore=3(20 寸 11kg);climbScore=2(36/28≈1.29 齿比偏高);身高 140-185cm 为官方渠道口径"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "odb005",
+    "model": "ODB005",
+    "marketingName": "CLINCH C10",
+    "series": "O",
+    "wheelSize": 20,
+    "weightKg": 9.7,
+    "folding": {
+      "mechanism": "碳纤双梁对折+LOCK JAW 铝合金接头",
+      "foldedSize": "87×40×69cm",
+      "carryScore": 4
+    },
+    "drivetrain": {
+      "speeds": 10,
+      "climbScore": 2
+    },
+    "priceCny": 16998,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "sport"
+    ],
+    "highlights": [
+      "业内首款碳纤维双梁折叠车,9.7kg 的水墨竞速小跑",
+      "SRAM GX 10 速+油碟,碳布叠层工艺独一份"
+    ],
+    "pros": [
+      "全碳车架前叉把横,9.7kg 轻量标杆",
+      "LOCK JAW 接头解决铝碳连接强度,折叠锁定牢靠",
+      "TEKTRO 油碟+40mm 框高碳轮,配置到位"
+    ],
+    "cons": [
+      "16998 元起的旗舰定价",
+      "54T 一体盘配 10 速,爬坡齿比保守看高",
+      "碳纤材质磕碰维修成本高"
+    ],
+    "specs": {
+      "车架": "碳纤维双梁车架+前叉+碳把(LOCK JAW 铝合金接头)",
+      "变速": "SRAM GX 10 速+SRAM 10 速指拨(54T 一体链盘)",
+      "刹车": "TEKTRO 油压碟刹",
+      "轮组": "定制 4 培林直拉碟刹轮组(40mm 框高+Sapim 辐条)",
+      "载重": "105kg"
+    },
+    "sources": [
+      "大行官网产品页 26 CLINCH C10|ODB005 https://dahon.com.cn/products/p000391",
+      "官网文章(官方售价 16998 元,9.7kg,载重 105kg,GX 10 速+54T,TEKTRO 油碟) https://dahon.com.cn/posts/x000365",
+      "官网评测(451 轮径,87×40×69) https://dahon.com.cn/posts/x000639",
+      "评级依据:carryScore=4(20 寸 9.7kg≤11kg);climbScore=2 保守评级(飞轮规格未公布,按 54T 大盘评估);身高区间按 20 寸标准架推算;价格为 2023 官方首发价,现售价待门店核实"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "hat061",
+    "model": "HAT061",
+    "marketingName": "DREAM D6",
+    "series": "H",
+    "wheelSize": 20,
+    "weightKg": 13.9,
+    "folding": {
+      "mechanism": "H 架对折(官方未公布折叠三维)",
+      "foldedSize": "官方未公布具体三维(20 寸折叠后可放入轿车后备箱)",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 6,
+      "climbScore": 2
+    },
+    "priceCny": 1398,
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "千元级最便宜的大行折叠车,还带马甲线",
+      "高碳钢圆管架结实耐造的'城市通勤小钢炮'"
+    ],
+    "pros": [
+      "1398 元左右的入门价,试错成本低",
+      "H 系钢架+马甲线,车架规格没缩水",
+      "6 速应对平路通勤足够"
+    ],
+    "cons": [
+      "13.9-14.3kg 偏重,搬楼提车费劲",
+      "6 速齿比窄,坡道城市吃力",
+      "高碳钢架要注意防锈保养"
+    ],
+    "specs": {
+      "车架": "H 系列高碳钢圆管车架+马甲线",
+      "变速": "SHIMANO 6 速",
+      "载重": "105kg",
+      "配色": "绿/黑/蓝/橙/酒红"
+    },
+    "sources": [
+      "大行官网产品页 26 DREAM D6|HAT061 https://dahon.com.cn/products/p000374",
+      "京东自营在售(HAT061 多配色 listing,页面价约 1398/满减后 1348) https://www.jd.com/jiage/131829116bb142bfb1d6.html",
+      "重量 13.9-14.3kg 与身高 150-180cm 为京东详情页口径(官网参数为图片无法机读,台账注明)",
+      "评级依据:carryScore=2(20 寸但 >12.5kg);climbScore=2 保守评级(齿比未公布,按 6 速入门定位)"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kac081",
+    "model": "KAC081",
+    "marketingName": "YOUTH P8",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 12.5,
+    "folding": {
+      "mechanism": "K 架对折+双节竖管(与经典版 P8 同平台)",
+      "foldedSize": "76×37×65cm",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 8,
+      "climbScore": 2
+    },
+    "priceCny": 2198,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "P8 青春版:便宜约 800 元拿到同款钢架折叠体验",
+      "学生党/预算党的第一台大行"
+    ],
+    "pros": [
+      "2198 元级到手价,性价比突出",
+      "与经典版 P8 同平台的铬钼钢 K 架",
+      "8 速转把皮实好上手"
+    ],
+    "cons": [
+      "变速/轮胎配置比经典版降级(微转变速+正新胎)",
+      "没有打气筒座管等细节配置",
+      "12.5kg 与经典版相当,没有更轻"
+    ],
+    "specs": {
+      "车架": "铬钼钢 K 架(与 KBC083 同平台)",
+      "变速": "8 速转把(微转/大行定制)",
+      "刹车": "V 刹",
+      "轮组": "正新耐磨胎"
+    },
+    "sources": [
+      "大行官网产品页 26 YOUTH P8|KAC081 https://dahon.com.cn/products/p000373",
+      "大行香港官网参数页(12.5kg,76×37×65) https://www.dahon.com.hk/products/dahon-youth-p8-kac081-folding-bike",
+      "价格依据:什么值得买商品百科约 2198(历史 2100-2500 区间) https://wiki.smzdm.com/p/mrevnmd/ ;京东大行 p8 青春版价格页在售 https://www.jd.com/jiage/13186f65fd8340049d15.html",
+      "评级依据:carryScore=3(20 寸 12.5kg 恰在 11-12.5kg 段上限);climbScore=2 保守评级(齿比未公布,按 8 速简化版定位);身高区间按 20 寸标准架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kba083",
+    "model": "KBA083",
+    "marketingName": "LAUNCH D8",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 11.83,
+    "folding": {
+      "mechanism": "2 代暴龙接头对折(三层锯齿咬合)+双节竖管",
+      "foldedSize": "官方未公布具体三维(20 寸 K 架,折叠后可入轿车后备箱)",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 8,
+      "climbScore": 2
+    },
+    "priceCny": 2848,
+    "heightRangeCm": [
+      140,
+      185
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "2 代暴龙接头+马甲线,人马系列新生代",
+      "碟刹 8 速两千八,铝架轻量城郊利器"
+    ],
+    "pros": [
+      "11.83kg 实称重量,同级碟刹车里偏轻",
+      "2 代暴龙接头锁定扎实,折叠手感好",
+      "座管调节范围大,140-185cm 都能骑"
+    ],
+    "cons": [
+      "8 速齿比范围一般,坡多的线路费力",
+      "官方未公布折叠三维,横向对比不方便",
+      "轮组与碟刹为入门规格"
+    ],
+    "specs": {
+      "车架": "铝合金 K 架(人马系列)+马甲线+超级下管",
+      "变速": "8 速(11-32T 后飞轮;牙盘官方未注明)",
+      "刹车": "前后碟刹(定制内偏结构碟刹花鼓)",
+      "载重": "105kg"
+    },
+    "sources": [
+      "大行官网产品页 26 LAUNCH D8|KBA083 https://dahon.com.cn/products/p000367",
+      "官网评测(11.83kg 实称,8 速 11-32T,碟刹,2 代暴龙接头) https://dahon.com.cn/posts/x000368",
+      "价格依据:京东标准款约 2848(什么值得买引用;评测区间 2500-3000) https://www.zhihu.com/tardis/zm/art/686543745",
+      "评级依据:carryScore=3(20 寸 11.83kg);climbScore=2 保守评级(牙盘未注明,按 8 速+11-32T 评估);身高 140-185cm 为官方渠道口径"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "bya412",
+    "model": "BYA412",
+    "marketingName": "DOVE UNO",
+    "series": "B",
+    "wheelSize": 14,
+    "weightKg": 9.0,
+    "folding": {
+      "mechanism": "14 寸小轮对折(官方口径 15 秒内折完)",
+      "foldedSize": "官方未公布具体三维(14 寸小轮,折叠后可放工位旁/轿车后备箱)",
+      "carryScore": 5
+    },
+    "drivetrain": {
+      "speeds": 1,
+      "climbScore": 1
+    },
+    "priceCny": 1798,
+    "heightRangeCm": [
+      140,
+      175
+    ],
+    "useCases": [
+      "casual",
+      "commute"
+    ],
+    "highlights": [
+      "14 寸单速约 9kg 的小方块,全家都能骑的轻便代步车",
+      "折叠后塞进工位旁或轿车后备箱毫无压力"
+    ],
+    "pros": [
+      "约 9kg 全铝车架,单手可提",
+      "单速结构免维护,使用成本低",
+      "载重 90kg,大人短途代步也能骑"
+    ],
+    "cons": [
+      "单速+14 寸小轮,只适合平路短途",
+      "踩快了也快不了,超过 3km 就该考虑别的车",
+      "小轮径过坑颠簸明显"
+    ],
+    "specs": {
+      "车架": "全铝合金",
+      "变速": "单速",
+      "载重": "90kg",
+      "折叠": "15 秒内折完"
+    },
+    "sources": [
+      "大行官网产品页 26 DOVE UNO|BYA412 https://dahon.com.cn/products/p000365",
+      "京东 BYA412 在售(约 1798,整车 9kg 口径,14 寸单速铝合金) https://www.jd.com/jiage/131874147eb3deab78c7.html",
+      "价格交叉:北京专卖店约 1619/百科约 8kg(与京东 9kg 口径差异已在台账注明) https://www.dahon.bj.cn/",
+      "评级依据:carryScore=5(14 寸 9kg,按'16 寸且≤10kg 可单手提上地铁'规则类推);climbScore=1(单速平路定位);身高 140-175cm 按京东'全家可骑/140cm 以上'口径推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kdb045",
+    "model": "KDB045",
+    "marketingName": "PC24",
+    "series": "K",
+    "wheelSize": 20,
+    "weightKg": 8.5,
+    "folding": {
+      "mechanism": "隐藏式双 V 折叠头对折+一体碳纤竖管(5 号内六角快拆)",
+      "foldedSize": "80×34×65cm",
+      "carryScore": 4
+    },
+    "drivetrain": {
+      "speeds": 24,
+      "climbScore": 3
+    },
+    "priceCny": 36998,
+    "heightRangeCm": [
+      150,
+      190
+    ],
+    "useCases": [
+      "sport",
+      "travel"
+    ],
+    "highlights": [
+      "行业首台弯把全碳折叠公路车:8.5kg+SRAM FORCE 24 速无线电子变速",
+      "50/37T+10-33T 约 460% 齿比范围,折叠车里的'速度旗舰'"
+    ],
+    "pros": [
+      "东丽 T800 碳架+50mm 框高碳轮,8.5kg 竞赛级轻量",
+      "eTap AXS 无线变速毫秒级响应,AXS App 可调可监测",
+      "隐藏式双 V 折叠头+UDH 尾钩+桶轴,规格看齐大组公路车"
+    ],
+    "cons": [
+      "36998 元的旗舰定价,性价比争议不小",
+      "竞技窄座垫偏硬,弯把下把位摇车易打手",
+      "碳纤+电变系统,维护成本高"
+    ],
+    "specs": {
+      "车架": "东丽 T800 碳纤维车架/前叉/单节竖管(隐藏式双 V 折叠头)",
+      "变速": "SRAM FORCE eTap AXS 2×12=24 速无线电变(50/37T+10-33T,约 460% 齿比范围)",
+      "刹车": "SRAM FORCE 油压碟刹(前后 160mm)",
+      "轮组": "50mm 框高碳轮+Panaracer minits lite 20×1 1/8 折叠胎",
+      "其他": "BB30 五通/UDH 尾钩/FIZIK Vento Antares R1 座垫"
+    },
+    "sources": [
+      "大行官网产品页 26 PC24|KDB045 https://dahon.com.cn/products/p000328",
+      "官网测评 2026-04(带快拆平踏 8.5kg,80×34×65,50/37+10-33,451 轮) https://dahon.com.cn/posts/x000926",
+      "官网文章(适配 150-190cm,双项金奖,8.6kg 口径) https://dahon.com.cn/posts/x000911",
+      "价格依据:2026 年 3 月正式开售 36998 元(什么值得买《大行 PC24 卖到 36998》及开售报道) https://post.smzdm.com/p/a03rlpe0/",
+      "评级依据:carryScore=4(20 寸 8.5kg≤11kg);climbScore=3(37/33≈1.12,属常规城市齿比段≤1.2);身高 150-190cm 为官方口径"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "yra693",
+    "model": "YRA693",
+    "marketingName": "VISC D9",
+    "series": "Y",
+    "wheelSize": 16,
+    "weightKg": 10.26,
+    "folding": {
+      "mechanism": "Y 型双梁架对折+双节竖管",
+      "foldedSize": "75×33×60cm",
+      "carryScore": 4
+    },
+    "drivetrain": {
+      "speeds": 9,
+      "climbScore": 2
+    },
+    "priceCny": 3698,
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "经典复刻 Y 型双梁架,16 寸 349 轮组里的复古颜值款",
+      "SORA 9 速+10.26kg,灵巧与稳定兼得"
+    ],
+    "pros": [
+      "Y 型双梁复刻设计吸睛,辨识度高",
+      "SORA 9 速在 16 寸车里规格靠前",
+      "10.26kg+75×33×60 折叠体,携行轻松"
+    ],
+    "cons": [
+      "55T 大盘配 11-28T,陡坡吃力",
+      "大陆官方渠道标价不透明,购买要找门店",
+      "V 刹配置,雨天长下坡信心一般"
+    ],
+    "specs": {
+      "车架": "铝合金 Y 型双梁车架(上加强管+异形主梁,经典复刻)",
+      "变速": "SHIMANO SORA 9 速(55T 轻量一体链盘+11-28T 飞轮)",
+      "刹车": "V 刹",
+      "轮组": "349 高驱动轮组"
+    },
+    "sources": [
+      "大行官网产品页 25 VISC D9|YRA693 https://dahon.com.cn/products/p000363",
+      "官网文章(10.26kg,75×33×60,349 轮,SORA 9 速,55T+11-28T) https://dahon.com.cn/posts/x000849",
+      "价格依据:港版 HK$4,980(https://www.dahon.com.hk/products/dahon-visc-d9-yra693-folding-bike);大陆淘宝渠道约 3598-3698,取保守上限 3698(估算,台账注明)",
+      "评级依据:carryScore=4(16 寸 10.26kg,略超'16 寸且≤10kg'的 5 分门槛,按重量段类推评 4,非规则原文档);climbScore=2(55/28≈1.96);身高区间按 16 寸小架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "cua693",
+    "model": "CUA693",
+    "marketingName": "CRUL D9",
+    "series": "C",
+    "wheelSize": 16,
+    "weightKg": 12.0,
+    "folding": {
+      "mechanism": "卷形折叠(三折,折叠后可用后衣架辅助轮推行)",
+      "foldedSize": "官方未公布具体三维(CURL 系列卷形折叠,体积紧凑可推行)",
+      "carryScore": 3
+    },
+    "drivetrain": {
+      "speeds": 9,
+      "climbScore": 3
+    },
+    "priceCny": 5998,
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "对标小布的卷折车:外 9 速+单右臂前叉,补齐小布变速弱的短板",
+      "大行 11 项专利的卷形折叠,展开快、骑行稳"
+    ],
+    "pros": [
+      "卷形折叠体积小且折叠后可推行",
+      "外置 9 速比内变速版本维护直观",
+      "单右臂前叉设计独特,换胎方便"
+    ],
+    "cons": [
+      "重量与售价官方口径缺失,购前需门店确认(本条目为保守估计)",
+      "外置变速折叠运输时需注意保护",
+      "卷折结构复杂,学习成本高于普通对折"
+    ],
+    "specs": {
+      "车架": "铝合金 S 型波浪车架(卷形折叠,11 项专利)",
+      "变速": "外置 9 速",
+      "前叉": "单右臂前叉",
+      "辅助": "后衣架辅助轮(折叠后可推行)"
+    },
+    "sources": [
+      "大行官网产品页 25 CRUL D9|CUA693 https://dahon.com.cn/products/p000313",
+      "美骑网 CURL 系列发布报道(系列定价与卷折结构) https://www.biketo.com/product/48290.html",
+      "什么值得买 CURL 评测(卷折结构/推行设计) https://post.smzdm.com/p/am8l57z4",
+      "保守估计说明:重量 12.0kg 为估算(同平台前代 CURL i4 约 12.6kg、海外目标 8.9kg 区间内取保守值);价格 5998 元为 CURL 系列入门统一定价参考(i3S),本款 9 速实际售价应更高;climbScore=3 为保守评级(齿比未公布);以上均已台账注明,待官方口径核实"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "nda083",
+    "model": "NDA083",
+    "marketingName": "DASH D18",
+    "series": "N",
+    "wheelSize": 20,
+    "weightKg": 10.7,
+    "folding": {
+      "mechanism": "N 架对折+弯把(折叠后可自立)",
+      "foldedSize": "93×47×91cm",
+      "carryScore": 4
+    },
+    "drivetrain": {
+      "speeds": 18,
+      "climbScore": 2
+    },
+    "priceCny": 6600,
+    "heightRangeCm": [
+      155,
+      190
+    ],
+    "useCases": [
+      "commute",
+      "sport"
+    ],
+    "highlights": [
+      "复古公路跑车造型的弯把折叠车,N 型圆管铝架+智慧车架锁",
+      "折叠后能立住的'复古时尚户外神器'"
+    ],
+    "pros": [
+      "10.7kg 在 18 速弯把车里偏轻",
+      "SORA 2×9 齿比覆盖广",
+      "复古外形+实用细节(内走线/可装挡泥板货架)"
+    ],
+    "cons": [
+      "折叠后 93×47×91cm 体积偏大,占后备箱空间",
+      "大陆售价不透明(本条目按台湾定价换算)",
+      "弯把运输保护麻烦"
+    ],
+    "specs": {
+      "车架": "N 型高强度铝合金圆管车架(三角结构)",
+      "变速": "SHIMANO SORA 前 2 后 9=18 速(36/52T 链盘+11-28T 飞轮)",
+      "刹车": "碟刹",
+      "其他": "智慧车架锁/内走线/可加装挡泥板货架"
+    },
+    "sources": [
+      "大行官网产品页 25 DASH D18|NDA083 https://dahon.com.cn/products/p000329",
+      "官网文章(10.7kg,93×47×91,载重 105kg,SORA 2×9+11-28T,碟刹) https://dahon.com.cn/posts/x000718",
+      "价格依据:台湾统一售价 NT$29,999(约合人民币 6,700,保守取 6,600,估算换算已在台账注明;大陆官方未标价)",
+      "评级依据:carryScore=4(20 寸 10.7kg≤11kg;折叠体积偏大已在缺点注明);climbScore=2(36/28≈1.29 齿比偏高);身高 155-190cm 按弯把车型推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "paa693",
+    "model": "PAA693",
+    "marketingName": "MU P9(PAA693 Pro)",
+    "series": "P",
+    "wheelSize": 16,
+    "weightKg": 10.9,
+    "folding": {
+      "mechanism": "海豚 P 架对折+双节竖管",
+      "foldedSize": "77×38×67cm",
+      "carryScore": 4
+    },
+    "drivetrain": {
+      "speeds": 9,
+      "climbScore": 2
+    },
+    "priceCny": 3898,
+    "heightRangeCm": [
+      140,
+      180
+    ],
+    "useCases": [
+      "commute",
+      "travel"
+    ],
+    "highlights": [
+      "小海豚 MU P9 国内版:349 轮组+彦豪油碟,16 寸里的高配均衡款",
+      "海豚架+马甲线,'买来就能放心骑'的省心之选"
+    ],
+    "pros": [
+      "油压碟刹在 16 寸车里少见,制动力有保障",
+      "10.9kg 实测重量,便携性佳",
+      "P 架海豚造型经典耐看,马甲线加持刚性"
+    ],
+    "cons": [
+      "55T 大盘配 11-28T,陡坡吃力",
+      "油碟版大陆售价不透明(本条目为保守价)",
+      "窄胎路况适应性一般"
+    ],
+    "specs": {
+      "车架": "铝合金海豚 P 架(马甲线+超级下管)",
+      "变速": "大行设计 9 速(55T 轻量一体牙盘+11-28T 飞轮)",
+      "刹车": "台湾彦豪(TEKTRO)油压碟刹",
+      "轮组": "349 铝合金培林轮组"
+    },
+    "sources": [
+      "大行官网产品页 25 PAA693 Pro|PAA693 https://dahon.com.cn/products/p000358",
+      "官网评测 2025-12(2025 款 MU P9 实测 10.9kg,77×38×67,349 轮,55T+11-28T,彦豪油碟) https://dahon.com.cn/posts/x000881",
+      "价格依据:老款 PAA693 渠道价约 3398-3898,取保守上限 3898(Pro 油碟版实际或更高,台账注明);京东 P9/PAA693 在售 https://www.jd.com/jiage/1318f78403c6950c7cf1.html",
+      "评级依据:carryScore=4(16 寸 10.9kg,略超 10kg 门槛按重量段类推);climbScore=2(55/28≈1.96);身高 140-180cm 为渠道口径"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "hac653",
+    "model": "HAC653",
+    "marketingName": "BOARDWALK D5",
+    "series": "H",
+    "wheelSize": 16,
+    "weightKg": 10.07,
+    "folding": {
+      "mechanism": "铬钼钢细管架对折",
+      "foldedSize": "64×28×60cm",
+      "carryScore": 4
+    },
+    "drivetrain": {
+      "speeds": 5,
+      "climbScore": 2
+    },
+    "priceCny": 3698,
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "casual",
+      "commute"
+    ],
+    "highlights": [
+      "16 寸复古小钢炮:纤细铬钼钢管+马甲线,BOARDWALK 系最小巧",
+      "10.07kg+64×28×60 折叠体,女生也能拎着走"
+    ],
+    "pros": [
+      "4130 铬钼钢细管车架,复古质感突出",
+      "折叠宽度仅 28cm,收纳友好",
+      "专属 5 速系统城市慢骑轻松"
+    ],
+    "cons": [
+      "5 速齿比窄,坡道城市吃力",
+      "16 寸小轮高速稳定性一般",
+      "大陆售价不透明(保守估算价)"
+    ],
+    "specs": {
+      "车架": "4130 Cr-Mo 铬钼钢细管车架+马甲线",
+      "变速": "大行专属设计 5 速",
+      "配色": "绿/红/咖啡"
+    },
+    "sources": [
+      "大行官网产品页 24 BOARDWALK D5|HAC653 https://dahon.com.cn/products/p000251",
+      "官网评测(16 寸车型,5 速定制,4130 钢架) https://dahon.com.cn/posts/x000360",
+      "重量 10.07kg/折叠 64×28×60 为香港渠道口径(大陆官方未公布,台账注明) https://dahon.com.cn/posts/x000293",
+      "价格依据:香港 HK$4,380(约合 4,000 元)及'大陆价与 K3 PLUS 相近'口径,保守取 3698(估算,台账注明)",
+      "评级依据:carryScore=4(16 寸 10.07kg,差 0.07kg 未达 5 分门槛);climbScore=2 保守评级('没有夸张的齿比',按 5 速平路定位);身高区间按 16 寸小架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "cua645h",
+    "model": "CUA645H",
+    "marketingName": "CURL I4",
+    "series": "C",
+    "wheelSize": 16,
+    "weightKg": 12.6,
+    "folding": {
+      "mechanism": "卷形折叠(三折,后货架 4 辅助滑轮,折叠后可推行自立)",
+      "foldedSize": "54×58×27cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 4,
+      "climbScore": 2
+    },
+    "priceCny": 5998,
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "commute",
+      "casual"
+    ],
+    "highlights": [
+      "'大行布':54×58×27cm 卷形折叠,对标小布的本土方案",
+      "Sturmey Archer 内 4 速花鼓,免维护的优雅"
+    ],
+    "pros": [
+      "折叠体积为大行全系最小,可推行可自立",
+      "内变速花鼓免维护,裙装通勤友好",
+      "双节两节式坐管调节范围大"
+    ],
+    "cons": [
+      "约 12.6kg(前代同系口径)在卷折车里偏重",
+      "内 4 速齿比范围有限",
+      "近 6000 元售价,性价比见仁见智"
+    ],
+    "specs": {
+      "车架": "铝合金卷形折叠车架(波浪弯曲,S 型)",
+      "变速": "Sturmey Archer 内 4 速花鼓+转把(48T 链盘+18T)",
+      "辅助": "后货架 4 辅助滑轮(可推行自立)",
+      "其他": "稳链器+前拨防掉链器"
+    },
+    "sources": [
+      "大行官网产品页 24 CURL I4|CUA645H https://dahon.com.cn/products/p000275",
+      "官网评测(同系 CURL I4S/CUA643H:54×58×27,内 4 速,48T+18T) https://dahon.com.cn/posts/x000339",
+      "官网车友评测(同系 I4S 卷形折叠细节) https://dahon.com.cn/posts/x000342",
+      "价格依据:2023 年上线官方定价 5998 元(77bike 论坛记录) https://bbs.77bike.com/read.php?tid=355511",
+      "保守口径说明:重量 12.6kg 为前代 CUA644H 数据(I4 官方未公布,台账注明);折叠尺寸为同系 I4S 口径;climbScore=2 保守评级(内 4 速 48/18≈2.67 叠加内变速范围评估)"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "oba793",
+    "model": "OBA793",
+    "marketingName": "GB-2",
+    "series": "O",
+    "wheelSize": 27,
+    "weightKg": 12.6,
+    "folding": {
+      "mechanism": "LOCK JAW 隐藏式接头对折+D4A 折叠头柱",
+      "foldedSize": "96×36.5×100cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 9,
+      "climbScore": 3
+    },
+    "priceCny": 6698,
+    "heightRangeCm": [
+      160,
+      190
+    ],
+    "useCases": [
+      "travel",
+      "commute"
+    ],
+    "highlights": [
+      "27.5 寸折叠瓜车:能折叠带去砾石路的全能车",
+      "40T 小盘+11-34T 大飞轮,折叠车里的爬坡优等生"
+    ],
+    "pros": [
+      "大轮径通过性与巡航优势明显",
+      "SORA 9 速+40T 小盘爬坡齿比友好",
+      "折叠支架设计,折叠后放置稳当"
+    ],
+    "cons": [
+      "折叠后近 1 米高,搬运收纳占空间",
+      "大陆售价不透明(港价换算)",
+      "瓜车定位,纯城市通勤略显笨重"
+    ],
+    "specs": {
+      "车架": "铝合金三角结构车架(LOCK JAW 隐藏式接头/D4A 3D 可调鹅颈折叠头柱)",
+      "变速": "SHIMANO SORA 9 速(40T 防掉链链盘+11-34T 飞轮)",
+      "刹车": "DAHON 定制碟刹",
+      "轮组": "27.5 寸(650B;schema 仅支持整数轮径,按 27 录入)",
+      "载重": "105kg"
+    },
+    "sources": [
+      "大行官网产品页 24 GB-2|OBA793 https://dahon.com.cn/products/p000253",
+      "官网文章(12.6kg,96×36.5×100,载重 105kg,SORA 9 速+11-34T,碟刹) https://dahon.com.cn/posts/x000536",
+      "价格依据:香港零售 HK$7,280(约合 6,700 元,保守取 6698,换算估算已在台账注明)",
+      "评级依据:carryScore=2(27.5 寸大轮按规则'26 寸'档评 2);climbScore=3(40/34≈1.18≤1.2 常规城市齿比);身高 160-190cm 按 27.5 寸大轮车型推算;轮径 27.5 寸(650B)按 27 录入(schema 整数限制)"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "fea071rm",
+    "model": "FEA071RM",
+    "marketingName": "K-ONE 电助力",
+    "series": "F",
+    "wheelSize": 20,
+    "weightKg": 18.6,
+    "folding": {
+      "mechanism": "F 架三步折叠(降座管/折竖管/对折车架)",
+      "foldedSize": "87×45.8×70.3cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 7,
+      "climbScore": 3
+    },
+    "priceCny": 6100,
+    "heightRangeCm": [
+      155,
+      190
+    ],
+    "useCases": [
+      "commute"
+    ],
+    "highlights": [
+      "折叠电助力:250W 轮毂电机+力矩传感器,踩多少助力多少",
+      "座管电池三种容量,助力续航最高 100km"
+    ],
+    "pros": [
+      "一体式力矩中轴,助力线性没有'踏空感'",
+      "5 档助力+LCD 仪表,关电就是普通 7 速自行车",
+      "36V 5AH/7.5AH/10AH 按需选容量,电池可取出独立充电"
+    ],
+    "cons": [
+      "18.6kg,没电时是辆沉重的自行车",
+      "折叠体积比同门机械款大",
+      "电助力系统的长期维护成本要考虑"
+    ],
+    "specs": {
+      "车架": "F 型铝合金车架+高强度碳钢前叉(马甲线)",
+      "电机": "36V250W 后毂电机(最大扭矩 42N·m)+一体式力矩中轴",
+      "变速": "SHIMANO 7 速(53T 链盘+螺旋式 7 速飞轮)",
+      "刹车": "DAHON 高性能机械碟刹",
+      "电池": "36V 5AH/7.5AH/10AH(助力续航约 50/75/100km)"
+    },
+    "sources": [
+      "大行官网产品页 24 K-ONE 电助力折叠车|FEA071RM https://dahon.com.cn/products/p000285",
+      "官网文章(18.6kg,87×45.8×70.3,载重 105kg,250W/42N·m,SHIMANO 7 速,电池三容量) https://dahon.com.cn/posts/x000648",
+      "价格依据:香港行货 HK$6,670(约合 6,100 元,保守换算,大陆官方价待核,台账注明)",
+      "评级依据:carryScore=2(18.6kg>12.5kg);climbScore=3(机械齿比偏高但 42N·m 电助力显著弥补,保守评 3 并注明);身高 155-190cm 推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kaa411",
+    "model": "KAA411",
+    "marketingName": "AGELESS",
+    "series": "K",
+    "wheelSize": 14,
+    "weightKg": 8.9,
+    "folding": {
+      "mechanism": "14 寸儿童折叠架对折+快拆辅助轮",
+      "foldedSize": "53×61×30cm",
+      "carryScore": 5
+    },
+    "drivetrain": {
+      "speeds": 1,
+      "climbScore": 1
+    },
+    "priceCny": 1798,
+    "heightRangeCm": [
+      120,
+      150
+    ],
+    "useCases": [
+      "casual"
+    ],
+    "highlights": [
+      "大行官方在售的儿童折叠车:3-13 岁的成长过渡车",
+      "8.9kg+快拆辅助轮,孩子学车家长省心"
+    ],
+    "pros": [
+      "8.9kg 轻巧,孩子自己也能搬",
+      "快拆辅助轮随成长可拆",
+      "折叠收纳不占家里地方"
+    ],
+    "cons": [
+      "单速+14 寸,只适合小区/公园短途",
+      "成人骑不了(几何与承重限制)",
+      "对比普通儿童自行车价格偏贵"
+    ],
+    "specs": {
+      "车架": "铝合金",
+      "变速": "单速",
+      "附件": "快拆式辅助轮",
+      "适用": "3-13 岁儿童/青少年"
+    },
+    "sources": [
+      "大行官网产品页 23 AGELESS|KAA411(官网正文标注'大行童车 KAA411') https://dahon.com.cn/products/p000221",
+      "京东 KAA411 在售(约 1798,梦幻粉蓝【快拆式辅助轮】,500 条评价) https://www.jd.com/jiage/1318113f4626dbbaba2a.html",
+      "参数依据:14 寸/单速/8.9kg/53×61×30 为香港销售与渠道口径(官网参数为图片,台账注明)",
+      "评级依据:carryScore=5(14 寸 8.9kg,按'≤10kg 可单手提'规则类推);climbScore=1(单速);身高 120-150cm 按 3-13 岁推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "kea411rm",
+    "model": "KEA411RM",
+    "marketingName": "大驾行",
+    "series": "K",
+    "wheelSize": 14,
+    "weightKg": 18.9,
+    "folding": {
+      "mechanism": "BA 四连杆接头对折+双节内 V 竖管",
+      "foldedSize": "65×35.5×65cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 1,
+      "climbScore": 2
+    },
+    "priceCny": 6398,
+    "heightRangeCm": [
+      150,
+      180
+    ],
+    "useCases": [
+      "commute"
+    ],
+    "highlights": [
+      "代驾司机战车:48V250W 高速电机+20Ah 大电池,折叠进后备箱",
+      "中轴速度传感器助力平顺,几乎消除'踏空感'"
+    ],
+    "pros": [
+      "48V20Ah(仅 5kg)大电池,长续航代驾无忧(另有 30Ah)",
+      "14×1.95 寸宽胎+专利前碟刹,载重 105kg",
+      "折叠后 65×35.5×65,进后备箱方便"
+    ],
+    "cons": [
+      "18.9kg 全重,搬动吃力",
+      "16T 单速机械传动,没电时骑起来费劲",
+      "大陆售价口径缺失(本条目为估算价,购前需门店确认)"
+    ],
+    "specs": {
+      "车架": "铝合金 K 型车架+马甲线+双节内 V 竖管",
+      "电机": "48V250W 高速后轮毂内转子电机(中轴一体速度传感器)",
+      "电池": "48V20Ah/48V30Ah 品牌电芯",
+      "传动": "16T 单速后飞轮",
+      "刹车": "DAHON 专利前碟刹",
+      "轮胎": "14×1.95 寸宽胎",
+      "仪表": "LCD(高/中/低档可调)"
+    },
+    "sources": [
+      "大行官网产品页 23 大驾行|KEA411RM https://dahon.com.cn/products/p000222",
+      "官网评测(18.9kg,65×35.5×65,载重 105kg,48V250W,16T 单速,14 寸宽胎) https://dahon.com.cn/posts/x000533",
+      "价格依据(估算):官方双 11 电助力档位 6398(原价 7198)与 K-ONE 电助力港价约 6100 相参照,取 6398;大陆实售价待门店核实,台账注明",
+      "评级依据:carryScore=2(18.9kg>12.5kg);climbScore=2(机械单速,电助力弥补但保守评 2 并注明);身高 150-180cm 按 14 寸小架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
+  },
+  {
+    "slug": "mba673",
+    "model": "MBA673",
+    "marketingName": "EXPLORER 金三角",
+    "series": "M",
+    "wheelSize": 26,
+    "weightKg": 15.0,
+    "folding": {
+      "mechanism": "金三角结构折叠山地架对折",
+      "foldedSize": "104×46×98cm",
+      "carryScore": 2
+    },
+    "drivetrain": {
+      "speeds": 27,
+      "climbScore": 4
+    },
+    "priceCny": 2578,
+    "heightRangeCm": [
+      160,
+      190
+    ],
+    "useCases": [
+      "travel",
+      "sport"
+    ],
+    "highlights": [
+      "26 寸金三角折叠山地车:能折进后备箱的越野玩家",
+      "3×9=27 速+双碟刹,两千五拿下全地形折叠"
+    ],
+    "pros": [
+      "26 寸大轮+正新综合防刺胎,复杂路况从容",
+      "27 速齿比范围宽,陡坡有档可换",
+      "15kg 在 26 寸折叠车里控制得不错"
+    ],
+    "cons": [
+      "折叠后 104×46×98cm,只适合后备箱不适合拎",
+      "15kg 提携吃力,基本靠推",
+      "方孔牙盘等入门规格,重度越野需升级"
+    ],
+    "specs": {
+      "车架": "铝合金金三角折叠山地车架",
+      "变速": "大行 3×9=27 速(44T 方孔牙盘+11-32T 飞轮)",
+      "刹车": "前后碟刹",
+      "轮组": "26 寸快拆轮组+CST 正新综合防刺外胎"
+    },
+    "sources": [
+      "大行官网产品页 23 金三角折叠山地车|EXPLORER https://dahon.com.cn/products/p000231",
+      "官网文章(26 寸,27 速,44T+11-32T,15kg,CST 胎,折叠 104×46×98) https://dahon.com.cn/posts/x000457",
+      "骑行家评测(型号代码 MBA673 出处) http://www.cyclingchina.net/site/html/2023/new_product_1121/8812.html",
+      "价格依据:京东约 2578(促销叠加后低至 2188.85) https://www.smzdm.com/p/179903541/",
+      "评级依据:carryScore=2(26 寸按规则评 2);climbScore=4(3×9 速山地齿比体系,44T+11-32T 小盘规格未公布,保守评 4 并注明);身高 160-190cm 按 26 寸山地架推算"
+    ],
+    "status": "active",
+    "discontinuedInfo": null,
+    "nameDecodeOverride": null,
+    "affiliateUrl": null,
+    "priceUpdatedAt": "2026-09-15",
+    "updatedAt": "2026-09-15"
   }
 ]
