@@ -1280,7 +1280,7 @@
     "sources": [
       "大行官网产品页 25 DASH D18|NDA083 https://dahon.com.cn/products/p000329",
       "官网文章(10.7kg,93×47×91,载重 105kg,SORA 2×9+11-28T,碟刹) https://dahon.com.cn/posts/x000718",
-      "价格依据:台湾统一售价 NT$29,999(约合人民币 6,700,保守取 6,600,估算换算已在台账注明;大陆官方未标价)",
+      "价格依据:台湾统一售价 NT$29,999(约合人民币 6,700,保守取 6,600;单车之家 BikeHome 商品页 https://bikehome.com.tw/product.ftl?cCode=A-D-DAHON&agiCode=PTAGI05IM033VN2O74ID6VXYPC&PC=153-625,估算换算已在台账注明;大陆官方未标价;汇率 2026-09-14 近似 1 TWD≈0.223 CNY,按取整金额反推)",
       "评级依据:carryScore=4(20 寸 10.7kg≤11kg;折叠体积偏大已在缺点注明);climbScore=2(36/28≈1.29 齿比偏高);身高 155-190cm 按弯把车型推算"
     ],
     "status": "active",
@@ -1396,7 +1396,7 @@
       "大行官网产品页 24 BOARDWALK D5|HAC653 https://dahon.com.cn/products/p000251",
       "官网评测(16 寸车型,5 速定制,4130 钢架) https://dahon.com.cn/posts/x000360",
       "重量 10.07kg/折叠 64×28×60 为香港渠道口径(大陆官方未公布,台账注明) https://dahon.com.cn/posts/x000293",
-      "价格依据:香港 HK$4,380(约合 4,000 元)及'大陆价与 K3 PLUS 相近'口径,保守取 3698(估算,台账注明)",
+      "价格依据:香港 HK$4,380(约合 4,000 元;dahon.com.hk 商品页 https://www.dahon.com.hk/products/dahon-boardwalk-d5-hac653-folding-bike,页面现另有促销价 HK$3,380)及'大陆价与 K3 PLUS 相近'口径,保守取 3698(估算,台账注明;汇率 2026-09-14 近似 1 HKD≈0.92 CNY,按取整金额反推)",
       "评级依据:carryScore=4(16 寸 10.07kg,差 0.07kg 未达 5 分门槛);climbScore=2 保守评级('没有夸张的齿比',按 5 速平路定位);身高区间按 16 寸小架推算"
     ],
     "status": "active",
@@ -1514,7 +1514,7 @@
     "sources": [
       "大行官网产品页 24 GB-2|OBA793 https://dahon.com.cn/products/p000253",
       "官网文章(12.6kg,96×36.5×100,载重 105kg,SORA 9 速+11-34T,碟刹) https://dahon.com.cn/posts/x000536",
-      "价格依据:香港零售 HK$7,280(约合 6,700 元,保守取 6698,换算估算已在台账注明)",
+      "价格依据:香港零售 HK$7,280(约合 6,700 元,保守取 6698;BikeCity 单车城商品页 https://www.bikecity.hk/products/dahon-gb-2-oba793-9%E9%80%9F%E9%8B%81%E5%90%88%E9%87%91%E6%8A%98%E7%96%8A%E8%BB%8A-27-5-%E9%BB%91%E8%89%B2-dahon-gb-2-oba793-folding-bike-black-27-5,换算估算已在台账注明;汇率 2026-09-14 近似 1 HKD≈0.92 CNY,按取整金额反推)",
       "评级依据:carryScore=2(27.5 寸大轮按规则'26 寸'档评 2);climbScore=3(40/34≈1.18≤1.2 常规城市齿比);身高 160-190cm 按 27.5 寸大轮车型推算;轮径 27.5 寸(650B)按 27 录入(schema 整数限制)"
     ],
     "status": "active",
@@ -1572,7 +1572,7 @@
     "sources": [
       "大行官网产品页 24 K-ONE 电助力折叠车|FEA071RM https://dahon.com.cn/products/p000285",
       "官网文章(18.6kg,87×45.8×70.3,载重 105kg,250W/42N·m,SHIMANO 7 速,电池三容量) https://dahon.com.cn/posts/x000648",
-      "价格依据:香港行货 HK$6,670(约合 6,100 元,保守换算,大陆官方价待核,台账注明)",
+      "价格依据:香港行货 HK$6,670(约合 6,100 元,保守换算;壹壹滑板车商品页 https://11boy.com.hk/product/10/KONE-5AH,大陆官方价待核,台账注明;汇率 2026-09-14 近似 1 HKD≈0.92 CNY,按取整金额反推)",
       "评级依据:carryScore=2(18.6kg>12.5kg);climbScore=3(机械齿比偏高但 42N·m 电助力显著弥补,保守评 3 并注明);身高 155-190cm 推算"
     ],
     "status": "active",
@@ -1689,7 +1689,7 @@
     "sources": [
       "大行官网产品页 23 大驾行|KEA411RM https://dahon.com.cn/products/p000222",
       "官网评测(18.9kg,65×35.5×65,载重 105kg,48V250W,16T 单速,14 寸宽胎) https://dahon.com.cn/posts/x000533",
-      "价格依据(估算):官方双 11 电助力档位 6398(原价 7198)与 K-ONE 电助力港价约 6100 相参照,取 6398;大陆实售价待门店核实,台账注明",
+      "价格依据(估算):官方双 11 电助力档位价——UNIO E16(电助力)KEA693CM 活动价 6398(原价 7198,官方活动文 https://dahon.com.cn/posts/x000473)与 K-ONE 电助力港价约 6100 相参照,取 6398;大陆实售价待门店核实,台账注明",
       "评级依据:carryScore=2(18.9kg>12.5kg);climbScore=2(机械单速,电助力弥补但保守评 2 并注明);身高 150-180cm 按 14 寸小架推算"
     ],
     "status": "active",
