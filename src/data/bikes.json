@@ -1460,7 +1460,12 @@
     ],
     "status": "active",
     "discontinuedInfo": null,
-    "nameDecodeOverride": null,
+    "nameDecodeOverride": [
+      {
+        "char": "H",
+        "meaning": "CURL 系列后缀代号 H(官方未公开具体含义;该系列 CUA643H/644H/645H 全系带 H,此码为碟刹 5 级升级版)"
+      }
+    ],
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
     "updatedAt": "2026-09-15"
@@ -1577,7 +1582,16 @@
     ],
     "status": "active",
     "discontinuedInfo": null,
-    "nameDecodeOverride": null,
+    "nameDecodeOverride": [
+      {
+        "char": "R",
+        "meaning": "电助力车型后缀 RM 首字母:轮毂电机电助力版(官方未公布逐字母含义,该车官方参数为 250W 高速轮毂电机)"
+      },
+      {
+        "char": "M",
+        "meaning": "电助力车型后缀 RM 次字母:轮毂电机电助力版(与中置电机后缀 CM 相对,如 KEA693CM)"
+      }
+    ],
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
     "updatedAt": "2026-09-15"
@@ -1694,7 +1708,16 @@
     ],
     "status": "active",
     "discontinuedInfo": null,
-    "nameDecodeOverride": null,
+    "nameDecodeOverride": [
+      {
+        "char": "R",
+        "meaning": "电助力车型后缀 RM 首字母:轮毂电机电助力版(官方未公布逐字母含义,该车官方参数为 48V250W 高速后轮毂内转子电机)"
+      },
+      {
+        "char": "M",
+        "meaning": "电助力车型后缀 RM 次字母:轮毂电机电助力版(与中置电机后缀 CM 相对,如 KEA693CM)"
+      }
+    ],
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
     "updatedAt": "2026-09-15"
