@@ -2,6 +2,7 @@
 import '../styles/global.css'
 interface Props { title: string; description?: string }
 const { title, description = '4 个问题,帮你选到合适的大行折叠车。' } = Astro.props
+const base = import.meta.env.BASE_URL
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -14,9 +15,9 @@ const { title, description = '4 个问题,帮你选到合适的大行折叠车�
   <body>
     <noscript><p class="noscript-note">本页部分功能需要 JavaScript;型号百科与详情页可直接浏览。</p></noscript>
     <nav class="site-nav" aria-label="主导航">
-      <a class="brand" href="/">大行选购器</a>
-      <a href="/bikes">型号百科</a>
-      <a href="/decode">型号名解读</a>
+      <a class="brand" href={`${base}`}>大行选购器</a>
+      <a href={`${base}bikes`}>型号百科</a>
+      <a href={`${base}decode`}>型号名解读</a>
     </nav>
     <main class="page">
       <slot />

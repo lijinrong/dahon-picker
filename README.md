@@ -30,7 +30,9 @@ Astro 5(静态生成)+ Vue 3 岛屿 + TypeScript(strict)+ zod 数据校验 + Vit
 
 ## 部署
 
-Cloudflare Pages,项目名 `dahon-picker`。手动发布:`npx wrangler pages deploy dist`。
+GitHub Pages(<https://jrli.github.io/dahon-picker/>)。推送到 `main` 分支时 CI 自动构建并部署(Actions: `ci` → `deploy`)。
+
+手动预览:`npm run build && npx astro preview`。
 
 ## 免责
 

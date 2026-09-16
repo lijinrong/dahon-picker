@@ -6,6 +6,8 @@ import { recommend, type RankedResult } from '../lib/recommend'
 import type { Bike } from '../lib/schema'
 import ResultView from './ResultView.vue'
 
+const base = import.meta.env.BASE_URL
+
 const props = withDefaults(defineProps<{ mode: 'quiz' | 'result'; bikes?: Bike[] }>(), {
   bikes: () => [],
 })
@@ -21,7 +23,7 @@ onMounted(() => {
   if (props.mode !== 'result') return
   const parsed = parseAnswers(window.location.search)
   if (!parsed) {
-    window.location.replace('/')
+    window.location.replace(base)
     return
   }
   answers.value = parsed
@@ -33,7 +35,7 @@ function choose(key: keyof Answers, value: string) {
   if (step.value < WIZARD_QUESTIONS.length - 1) {
     step.value += 1
   } else {
-    window.location.assign('/result?' + encodeAnswers({ ...partial.value } as Answers))
+    window.location.assign(base + 'result?' + encodeAnswers({ ...partial.value } as Answers))
   }
 }
 
@@ -47,7 +49,7 @@ function back() {
     v-if="mode === 'result' && result && answers"
     :result="result"
     :answers="answers"
-    @restart="() => window.location.assign('/')"
+    @restart="() => window.location.assign(base)"
   />
   <p v-else-if="mode === 'result'" class="empty">正在生成推荐…</p>
   <div v-else class="wizard">

@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro'
 import { loadBikes, loadNaming } from '../../lib/schema'
 import { decodeModel } from '../../lib/decode'
+const base = import.meta.env.BASE_URL
 
 export function getStaticPaths() {
   const bikes = loadBikes()
@@ -78,8 +79,8 @@ const stars = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n)
 
     <footer>
       <p class="rec-actions">
-        <a href={`/compare?ids=${bike.slug}`}>对比其他车型 →</a>
-        <a href="/bikes">← 返回型号百科</a>
+        <a href={`${base}compare?ids=${bike.slug}`}>对比其他车型 →</a>
+        <a href={`${base}bikes`}>← 返回型号百科</a>
       </p>
       <p class="sources">
         数据来源:{bike.sources.join(' · ')};更新于 {bike.updatedAt}。

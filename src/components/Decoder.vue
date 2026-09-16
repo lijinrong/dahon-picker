@@ -3,6 +3,8 @@ import { ref } from 'vue'
 import type { Bike, Naming } from '../lib/schema'
 import { decodeModel, type DecodeResult } from '../lib/decode'
 
+const base = import.meta.env.BASE_URL
+
 const props = defineProps<{ naming: Naming; bikes: Bike[] }>()
 
 const input = ref('')
@@ -35,7 +37,7 @@ function run(text: string) {
           <span v-if="s.note" class="seg-meaning">({{ s.note }})</span>
         </li>
       </ol>
-      <p v-if="result.slug"><a :href="`/bikes/${result.slug}`">看这款车详情 →</a></p>
+      <p v-if="result.slug"><a :href="`${base}bikes/${result.slug}`">看这款车详情 →</a></p>
     </div>
 
     <div v-else-if="result" class="decode-miss">

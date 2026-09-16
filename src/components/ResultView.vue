@@ -3,6 +3,8 @@ import { BUDGET_LABEL, FOLD_LABEL, HEIGHT_LABEL, USE_CASE_LABEL, type Answers } 
 import type { RankedResult, Recommendation } from '../lib/recommend'
 import { reasonsFor, type Reason } from '../lib/reasons'
 
+const base = import.meta.env.BASE_URL
+
 const props = defineProps<{ result: RankedResult; answers: Answers }>()
 const emit = defineEmits<{ restart: [] }>()
 
@@ -38,12 +40,12 @@ function reasons(rec: Recommendation): Reason[] {
           <li v-for="(r, i) in reasons(rec)" :key="i" :class="['chip', `chip-${r.kind}`]">{{ r.text }}</li>
         </ul>
         <p class="rec-actions">
-          <a :href="`/bikes/${rec.bike.slug}`">看详情 →</a>
-          <a :href="`/compare?ids=${rec.bike.slug}`">对比其他车型 →</a>
+          <a :href="`${base}bikes/${rec.bike.slug}`">看详情 →</a>
+          <a :href="`${base}compare?ids=${rec.bike.slug}`">对比其他车型 →</a>
         </p>
       </li>
     </ol>
-    <p v-else class="empty">暂时没有可推荐的车型,去 <a href="/bikes">型号百科</a> 看看全部。</p>
+    <p v-else class="empty">暂时没有可推荐的车型,去 <a :href="`${base}bikes`">型号百科</a> 看看全部。</p>
     <button class="btn-ghost" type="button" @click="emit('restart')">重新答题</button>
   </section>
 </template>

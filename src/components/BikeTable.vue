@@ -4,6 +4,8 @@ import type { Bike } from '../lib/schema'
 import { filterBikes, sortBikes, type BikeFilter, type SortKey } from '../lib/filter'
 import { USE_CASES, USE_CASE_LABEL } from '../lib/answers'
 
+const base = import.meta.env.BASE_URL
+
 const props = defineProps<{ bikes: Bike[] }>()
 
 type PriceBand = '' | 'lt2000' | '2000-4000' | '4000-8000' | 'gt8000'
@@ -77,7 +79,7 @@ const rows = computed(() => {
     <p class="count">共 {{ rows.length }} 款</p>
     <ul class="bike-list">
       <li v-for="b in rows" :key="b.slug" class="card">
-        <h2><a :href="`/bikes/${b.slug}`">{{ b.model }}</a><span class="alias">{{ b.marketingName }}</span></h2>
+        <h2><a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a><span class="alias">{{ b.marketingName }}</span></h2>
         <p>{{ b.wheelSize }} 寸 · {{ b.drivetrain.speeds }} 速 · {{ b.weightKg }}kg</p>
         <p class="price">参考价 ¥{{ b.priceCny }}<small> · 更新于 {{ b.priceUpdatedAt.slice(0, 7) }}</small></p>
       </li>

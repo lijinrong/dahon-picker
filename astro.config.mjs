@@ -3,5 +3,6 @@ import vue from '@astrojs/vue'
 
 export default defineConfig({
   integrations: [vue()],
-  site: 'https://dahon-picker.pages.dev',
+  site: 'https://jrli.github.io',
+  base: '/dahon-picker/',
 })

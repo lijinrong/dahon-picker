@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import type { Bike } from '../lib/schema'
 import { parseIds } from '../lib/urlState'
 
+const base = import.meta.env.BASE_URL
 const props = defineProps<{ bikes: Bike[] }>()
 
 const selected = ref<Bike[]>([])
@@ -41,9 +42,9 @@ const rows = computed(() =>
 /** 构造追加对比车型的 URL（保留已有 ids） */
 function addUrl(slug: string): string {
   const existing = selected.value.map((b) => b.slug)
-  if (existing.includes(slug)) return `/compare?ids=${existing.join(',')}`
+  if (existing.includes(slug)) return `${base}compare?ids=${existing.join(',')}`
   const next = [...existing, slug]
-  return `/compare?ids=${next.join(',')}`
+  return `${base}compare?ids=${next.join(',')}`
 }
 
 /** 可选车型（排除已选） */
@@ -55,8 +56,8 @@ const candidates = computed(() =>
 <template>
   <!-- 无任何车型 -->
   <p v-if="selected.length === 0" class="empty">
-    至少选择两款车型才能对比:去 <a href="/bikes">型号百科</a> 或
-    <a href="/">答题获得推荐</a> 后,在车型上点「加入对比」。
+    至少选择两款车型才能对比:去 <a :href="`${base}bikes`">型号百科</a> 或
+    <a :href="base">答题获得推荐</a> 后,在车型上点「加入对比」。
   </p>
 
   <!-- 仅 1 款：展示该车 + 引导加第二款 -->
@@ -65,7 +66,7 @@ const candidates = computed(() =>
     <ul class="bike-list">
       <li v-for="b in candidates" :key="b.slug" class="card">
         <span>
-          <a :href="`/bikes/${b.slug}`">{{ b.model }}</a>
+          <a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a>
           <span class="alias">{{ b.marketingName }}</span>
         </span>
         <span class="price">¥{{ b.priceCny }}</span>
@@ -81,7 +82,7 @@ const candidates = computed(() =>
         <tr>
           <th scope="col">对比项</th>
           <th v-for="b in selected" :key="b.slug" scope="col">
-            <a :href="`/bikes/${b.slug}`">{{ b.model }}</a>
+            <a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a>
             <span class="alias">{{ b.marketingName }}</span>
           </th>
         </tr>
@@ -93,6 +94,6 @@ const candidates = computed(() =>
         </tr>
       </tbody>
     </table>
-    <p>高亮行是这几款车有差异的地方。从 <a href="/bikes">型号百科</a> 中继续加入对比。</p>
+    <p>高亮行是这几款车有差异的地方。从 <a :href="`${base}bikes`">型号百科</a> 中继续加入对比。</p>
   </div>
 </template>

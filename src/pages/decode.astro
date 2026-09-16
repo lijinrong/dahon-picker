@@ -3,6 +3,8 @@ import Base from '../layouts/Base.astro'
 import Decoder from '../components/Decoder.vue'
 import { loadBikes, loadNaming } from '../lib/schema'
 
+const base = import.meta.env.BASE_URL
+
 const naming = loadNaming()
 const bikes = loadBikes()
 const bySlug = new Map(bikes.map((b) => [b.slug, b]))
@@ -57,7 +59,7 @@ const uncertainNotes = naming.uncertain.map((u) => u.note)
         {nicknameRows.map((r) => (
           <div>
             <dt>{r.nick}</dt>
-            <dd><a href={`/bikes/${r.bike.slug}`}>{r.bike.model}</a>({r.bike.marketingName})</dd>
+            <dd><a href={`${base}bikes/${r.bike.slug}`}>{r.bike.model}</a>({r.bike.marketingName})</dd>
           </div>
         ))}
       </dl>

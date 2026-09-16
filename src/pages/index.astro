@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro'
 import WizardFlow from '../components/WizardFlow.vue'
+const base = import.meta.env.BASE_URL
 ---
 <Base title="大行折叠车选购器 · 4 个问题找到适合你的车">
   <section class="hero">
@@ -9,7 +10,7 @@ import WizardFlow from '../components/WizardFlow.vue'
   </section>
   <WizardFlow client:load mode="quiz" />
   <section class="secondary-entries">
-    <p><a href="/bikes">浏览全部型号 →</a></p>
-    <p><a href="/decode">看不懂型号名?30 秒入门 →</a></p>
+    <p><a href={`${base}bikes`}>浏览全部型号 →</a></p>
+    <p><a href={`${base}decode`}>看不懂型号名?30 秒入门 →</a></p>
   </section>
 </Base>
