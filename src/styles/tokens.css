@@ -1,26 +1,46 @@
 :root {
-  --color-bg: oklch(97.5% 0.005 95);
-  --color-surface: oklch(100% 0 0);
-  --color-ink: oklch(22% 0.02 250);
-  --color-ink-soft: oklch(46% 0.02 250);
-  --color-accent: oklch(52% 0.14 150);
-  --color-accent-ink: oklch(98% 0.01 150);
-  --color-accent-soft: oklch(94% 0.03 150);
-  --color-warn-soft: oklch(95% 0.04 80);
-  --color-line: oklch(88% 0.01 250);
+  /* ── Color palette: Urban Workshop ── */
+  --color-bg: #FAF9F7;
+  --color-surface: #FFFFFF;
+  --color-ink: #18181B;
+  --color-ink-soft: #6B7280;
+  --color-primary: #1E3A5F;
+  --color-primary-ink: #F8FAFC;
+  --color-primary-soft: #E2E8F0;
+  --color-accent: #D97706;
+  --color-accent-ink: #FFFBEB;
+  --color-accent-soft: #FEF3C7;
+  --color-diff-soft: #DBEAFE;
+  --color-warn-soft: #FEF3C7;
+  --color-pros-soft: #DCFCE7;
+  --color-cons-soft: #FEE2E2;
+  --color-line: #E5E7EB;
+
+  /* ── Typography ── */
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Noto Sans SC', system-ui, sans-serif;
   --text-base: clamp(1rem, 0.95rem + 0.3vw, 1.0625rem);
   --text-small: 0.875rem;
   --text-h1: clamp(1.75rem, 1.2rem + 2.5vw, 2.75rem);
   --text-h2: clamp(1.375rem, 1.1rem + 1.2vw, 1.75rem);
   --text-h3: 1.125rem;
+
+  /* ── Spacing ── */
   --space-block: clamp(1.5rem, 1.2rem + 1.5vw, 3rem);
   --space-inline: 1rem;
   --space-gutter: clamp(1rem, 0.8rem + 1.5vw, 2rem);
-  --radius-card: 14px;
+
+  /* ── Radius ── */
+  --radius-card: 12px;
   --radius-pill: 999px;
+
+  /* ── Shadows ── */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.03);
+  --shadow-card-hover: 0 2px 8px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(30, 58, 95, 0.08);
+  --shadow-nav: 0 1px 0 var(--color-line);
+
+  /* ── Motion ── */
   --duration-fast: 150ms;
   --duration-normal: 300ms;
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --font-serif: 'Songti SC', 'Noto Serif SC', serif;
-  --font-sans: system-ui, 'PingFang SC', 'Microsoft YaHei', sans-serif;
 }

@@ -63,14 +63,14 @@ const candidates = computed(() =>
   <!-- 仅 1 款：展示该车 + 引导加第二款 -->
   <div v-else-if="selected.length === 1" class="compare">
     <p>已选 <strong>{{ selected[0].model }}</strong> ({{ selected[0].marketingName }})，再选一款即可对比：</p>
-    <ul class="bike-list">
+    <ul class="bike-list stagger">
       <li v-for="b in candidates" :key="b.slug" class="card">
         <span>
           <a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a>
           <span class="alias">{{ b.marketingName }}</span>
         </span>
-        <span class="price">¥{{ b.priceCny }}</span>
-        <a :href="addUrl(b.slug)" class="btn-ghost">加入对比</a>
+        <span class="price"><span class="yen">¥</span>{{ b.priceCny }}</span>
+        <a :href="addUrl(b.slug)" class="btn-ghost-accent">加入对比</a>
       </li>
     </ul>
   </div>

@@ -25,14 +25,15 @@ function reasons(rec: Recommendation): Reason[] {
       {{ result.relaxedDimensions.includes('budget') ? '价格超出了你的预算;' : '' }}
       {{ result.relaxedDimensions.includes('height') ? '身高适配略有出入。' : '' }}
     </p>
-    <ol class="rec-list" v-if="result.recommendations.length">
-      <li v-for="rec in result.recommendations" :key="rec.bike.slug" class="card rec-card">
+    <ol class="rec-list stagger" v-if="result.recommendations.length">
+      <li v-for="(rec, idx) in result.recommendations" :key="rec.bike.slug" class="card rec-card">
+        <span class="rec-rank">{{ idx + 1 }}</span>
         <div class="rec-head">
           <h2>
             {{ rec.bike.model }}<span class="alias">{{ rec.bike.marketingName }}</span>
           </h2>
           <p class="price">
-            参考价 ¥{{ rec.bike.priceCny }}
+            参考价 <span class="yen">¥</span>{{ rec.bike.priceCny }}
             <small>· 更新于 {{ rec.bike.priceUpdatedAt.slice(0, 7) }}</small>
           </p>
         </div>
@@ -46,6 +47,6 @@ function reasons(rec: Recommendation): Reason[] {
       </li>
     </ol>
     <p v-else class="empty">暂时没有可推荐的车型,去 <a :href="`${base}bikes`">型号百科</a> 看看全部。</p>
-    <button class="btn-ghost" type="button" @click="emit('restart')">重新答题</button>
+    <button class="btn-ghost" type="button" @click="emit('restart')">← 重新答题</button>
   </section>
 </template>

@@ -22,7 +22,7 @@ const stars = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n)
     <header>
       <h1>{bike.model}<span class="alias">{bike.marketingName}</span></h1>
       <p class="price">
-        参考价 ¥{bike.priceCny}
+        参考价 <span class="yen">¥</span>{bike.priceCny}
         <small>· 更新于 {bike.priceUpdatedAt.slice(0, 7)}</small>
       </p>
       {bike.status === 'discontinued' && (
@@ -31,14 +31,14 @@ const stars = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n)
         </p>
       )}
       <ul class="highlights">
-        {bike.highlights.map((h) => <li class="chip">{h}</li>)}
+        {bike.highlights.map((h) => <li class="chip chip-highlight">{h}</li>)}
       </ul>
     </header>
 
     <section aria-labelledby="decode-heading">
       <h2 id="decode-heading">型号名怎么读</h2>
       {decode.matched ? (
-        <ol class="seg-list">
+        <ol class="seg-list stagger">
           {decode.segments.map((s) => (
             <li class="seg">
               <span class="seg-char">{s.char}</span>
@@ -71,16 +71,20 @@ const stars = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n)
 
     <section aria-labelledby="pros-cons-heading">
       <h2 id="pros-cons-heading">优点与缺点</h2>
-      <h3>优点</h3>
-      <ul>{bike.pros.map((p) => <li>{p}</li>)}</ul>
-      <h3>缺点</h3>
-      <ul>{bike.cons.map((c) => <li>{c}</li>)}</ul>
+      <div class="pros-section">
+        <h3>优点</h3>
+        <ul>{bike.pros.map((p) => <li>{p}</li>)}</ul>
+      </div>
+      <div class="cons-section">
+        <h3>缺点</h3>
+        <ul>{bike.cons.map((c) => <li>{c}</li>)}</ul>
+      </div>
     </section>
 
     <footer>
       <p class="rec-actions">
-        <a href={`${base}compare?ids=${bike.slug}`}>对比其他车型 →</a>
-        <a href={`${base}bikes`}>← 返回型号百科</a>
+        <a href={`${base}compare?ids=${bike.slug}`} class="btn-accent">对比其他车型 →</a>
+        <a href={`${base}bikes`} class="btn-ghost">← 返回型号百科</a>
       </p>
       <p class="sources">
         数据来源:{bike.sources.join(' · ')};更新于 {bike.updatedAt}。

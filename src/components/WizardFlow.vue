@@ -42,6 +42,9 @@ function choose(key: keyof Answers, value: string) {
 function back() {
   if (step.value > 0) step.value -= 1
 }
+
+const progressPercent = computed(() => ((step.value + 1) / WIZARD_QUESTIONS.length) * 100)
+const progressLabel = computed(() => `${step.value + 1}/${WIZARD_QUESTIONS.length}`)
 </script>
 
 <template>
@@ -53,7 +56,12 @@ function back() {
   />
   <p v-else-if="mode === 'result'" class="empty">正在生成推荐…</p>
   <div v-else class="wizard">
-    <progress :value="step" :max="WIZARD_QUESTIONS.length" aria-label="答题进度" />
+    <div class="wizard-progress">
+      <div class="wizard-progress-bar">
+        <div class="wizard-progress-fill" :style="{ width: progressPercent + '%' }"></div>
+      </div>
+      <span class="wizard-progress-label">{{ progressLabel }}</span>
+    </div>
     <h2>{{ current.title }}</h2>
     <div class="options">
       <button
@@ -64,6 +72,6 @@ function back() {
         @click="choose(current.key, opt.value)"
       >{{ opt.label }}</button>
     </div>
-    <button v-if="step > 0" class="btn-ghost" type="button" @click="back">上一题</button>
+    <button v-if="step > 0" class="btn-ghost" type="button" @click="back">← 上一题</button>
   </div>
 </template>

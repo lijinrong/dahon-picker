@@ -22,7 +22,7 @@ function run(text: string) {
       <label for="decode-input">输入官方代码(如 KAA084)或市场俗称(如 K3)</label>
       <div class="decode-form-row">
         <input id="decode-input" v-model="input" placeholder="KAA084 / K3" autocomplete="off" />
-        <button class="btn" type="submit">解读</button>
+        <button class="btn-accent" type="submit">解读</button>
       </div>
     </form>
 
@@ -30,7 +30,7 @@ function run(text: string) {
       <p v-if="result.viaNickname" class="via-nickname">
         {{ result.viaNickname }} 是 {{ result.segments.map((s) => s.char).join('') }} 的市场俗称。
       </p>
-      <ol class="seg-list">
+      <ol class="seg-list stagger">
         <li v-for="s in result.segments" :key="s.index" class="seg">
           <span class="seg-char">{{ s.char }}</span>
           <span class="seg-meaning">{{ s.meaning ?? '—' }}</span>

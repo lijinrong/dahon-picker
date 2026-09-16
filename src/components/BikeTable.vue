@@ -77,11 +77,11 @@ const rows = computed(() => {
       </label>
     </div>
     <p class="count">共 {{ rows.length }} 款</p>
-    <ul class="bike-list">
+    <ul class="bike-list stagger">
       <li v-for="b in rows" :key="b.slug" class="card">
         <h2><a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a><span class="alias">{{ b.marketingName }}</span></h2>
         <p>{{ b.wheelSize }} 寸 · {{ b.drivetrain.speeds }} 速 · {{ b.weightKg }}kg</p>
-        <p class="price">参考价 ¥{{ b.priceCny }}<small> · 更新于 {{ b.priceUpdatedAt.slice(0, 7) }}</small></p>
+        <p class="price"><span class="yen">¥</span>{{ b.priceCny }}<small> · 更新于 {{ b.priceUpdatedAt.slice(0, 7) }}</small></p>
       </li>
     </ul>
     <p v-if="rows.length === 0" class="empty">没有符合条件的车型,试试放宽筛选。</p>

@@ -34,9 +34,9 @@ describe('WizardFlow(quiz 模式)', () => {
 
   it('进度条随步骤前进', async () => {
     const w = mount(WizardFlow, { props: { mode: 'quiz' } })
-    const progress = () => w.find('progress').element as HTMLProgressElement
-    expect(Number(progress().value)).toBe(0)
+    const fill = () => w.find('.wizard-progress-fill')
+    expect(fill().attributes('style')).toContain('width: 25%')
     await w.findAll('button.option-btn')[0].trigger('click')
-    expect(Number(progress().value)).toBe(1)
+    expect(fill().attributes('style')).toContain('width: 50%')
   })
 })
