@@ -44,9 +44,18 @@ describe('CompareTable', () => {
     await w2.vm.$nextTick()
     expect(w2.findAll('tr.diff').map((r) => r.text()).join('|')).toContain('参考价')
   })
-  it('无参数或少于 2 款时显示用法提示', () => {
+  it('无参数时显示用法提示', () => {
     expect(mountWith('').text()).toContain('至少选择两款')
-    expect(mountWith('?ids=a').text()).toContain('至少选择两款')
+  })
+  it('仅 1 款时引导加第二款', async () => {
+    const w = mountWith('?ids=a')
+    await w.vm.$nextTick()
+    const text = w.text()
+    expect(text).toContain('已选')
+    expect(text).toContain('KAA084') // 已选车型名
+    expect(text).toContain('再选一款')
+    // 候选列表里 PAA013 可见
+    expect(text).toContain('PAA013')
   })
   it('每列链接到详情页', async () => {
     const w = mountWith('?ids=a,b')

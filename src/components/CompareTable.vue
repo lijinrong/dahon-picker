@@ -37,13 +37,44 @@ const rows = computed(() =>
     isDiff: selected.value.length > 1 && new Set(selected.value.map(r.value)).size > 1,
   })),
 )
+
+/** 构造追加对比车型的 URL（保留已有 ids） */
+function addUrl(slug: string): string {
+  const existing = selected.value.map((b) => b.slug)
+  if (existing.includes(slug)) return `/compare?ids=${existing.join(',')}`
+  const next = [...existing, slug]
+  return `/compare?ids=${next.join(',')}`
+}
+
+/** 可选车型（排除已选） */
+const candidates = computed(() =>
+  props.bikes.filter((b) => !selected.value.some((s) => s.slug === b.slug)),
+)
 </script>
 
 <template>
-  <p v-if="selected.length < 2" class="empty">
+  <!-- 无任何车型 -->
+  <p v-if="selected.length === 0" class="empty">
     至少选择两款车型才能对比:去 <a href="/bikes">型号百科</a> 或
     <a href="/">答题获得推荐</a> 后,在车型上点「加入对比」。
   </p>
+
+  <!-- 仅 1 款：展示该车 + 引导加第二款 -->
+  <div v-else-if="selected.length === 1" class="compare">
+    <p>已选 <strong>{{ selected[0].model }}</strong> ({{ selected[0].marketingName }})，再选一款即可对比：</p>
+    <ul class="bike-list">
+      <li v-for="b in candidates" :key="b.slug" class="card">
+        <span>
+          <a :href="`/bikes/${b.slug}`">{{ b.model }}</a>
+          <span class="alias">{{ b.marketingName }}</span>
+        </span>
+        <span class="price">¥{{ b.priceCny }}</span>
+        <a :href="addUrl(b.slug)" class="btn-ghost">加入对比</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ≥2 款：完整对比表 -->
   <div v-else class="compare" aria-label="车型对比表">
     <table class="compare-table">
       <thead>
@@ -62,6 +93,6 @@ const rows = computed(() =>
         </tr>
       </tbody>
     </table>
-    <p>高亮行是这几款车有差异的地方。</p>
+    <p>高亮行是这几款车有差异的地方。从 <a href="/bikes">型号百科</a> 中继续加入对比。</p>
   </div>
 </template>

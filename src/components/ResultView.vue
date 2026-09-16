@@ -39,7 +39,7 @@ function reasons(rec: Recommendation): Reason[] {
         </ul>
         <p class="rec-actions">
           <a :href="`/bikes/${rec.bike.slug}`">看详情 →</a>
-          <a :href="`/compare?ids=${rec.bike.slug}`">加入对比 →</a>
+          <a :href="`/compare?ids=${rec.bike.slug}`">对比其他车型 →</a>
         </p>
       </li>
     </ol>
