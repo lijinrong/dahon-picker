@@ -56,7 +56,14 @@
       "价格依据:官网评测定价 3698 元(https://dahon.com.cn/posts/x000272)、大行北京专卖店 3298 元(https://www.dahon.bj.cn/?p=6141)、淘宝 3598 元,参考价取中间值 3498",
       "评级依据:carryScore=5(16寸且官方重量 9.97kg≤10kg);climbScore=2(55T/28T 齿比下限约 1.96,高于常规城市齿比 1.2);身高区间 150-180cm 依北京专卖店页"
     ],
-    "updatedAt": "2026-09-14"
+    "updatedAt": "2026-09-14",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 3698,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "cuc673",
@@ -115,7 +122,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 5698,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "fka091",
@@ -174,7 +188,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 2998,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kac083",
@@ -233,7 +254,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 4598,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "paa003",
@@ -292,7 +320,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 3898,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "pka015",
@@ -351,7 +386,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 12098,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "hac003",
@@ -410,7 +452,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 3588,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "hac071",
@@ -469,7 +518,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 3128,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kaa015",
@@ -527,7 +583,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 6098,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kbc083",
@@ -586,7 +649,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 3398,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kba005",
@@ -645,7 +715,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 5298,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kdc083",
@@ -705,7 +782,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 6198,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "eda025",
@@ -763,7 +847,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 12298,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "odb005",
@@ -822,7 +913,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 16698,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "hat061",
@@ -880,7 +978,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 1598,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kac081",
@@ -938,7 +1043,9 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": []
   },
   {
     "slug": "kba083",
@@ -996,7 +1103,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 2748,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "bya412",
@@ -1054,7 +1168,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 1998,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kdb045",
@@ -1114,7 +1235,9 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": []
   },
   {
     "slug": "yra693",
@@ -1172,7 +1295,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 3598,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "cua693",
@@ -1230,7 +1360,9 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": []
   },
   {
     "slug": "nda083",
@@ -1288,7 +1420,9 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": []
   },
   {
     "slug": "paa693",
@@ -1346,7 +1480,9 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": []
   },
   {
     "slug": "hac653",
@@ -1404,7 +1540,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 3298,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "cua645h",
@@ -1468,7 +1611,14 @@
     ],
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 5698,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "oba793",
@@ -1527,7 +1677,9 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": []
   },
   {
     "slug": "fea071rm",
@@ -1594,7 +1746,14 @@
     ],
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 6000,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kaa411",
@@ -1651,7 +1810,14 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 1998,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "kea411rm",
@@ -1720,7 +1886,14 @@
     ],
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 6700,
+        "date": "2026-07-15"
+      }
+    ]
   },
   {
     "slug": "mba673",
@@ -1779,6 +1952,13 @@
     "nameDecodeOverride": null,
     "affiliateUrl": null,
     "priceUpdatedAt": "2026-09-15",
-    "updatedAt": "2026-09-15"
+    "updatedAt": "2026-09-15",
+    "imageUrl": null,
+    "priceHistory": [
+      {
+        "price": 2778,
+        "date": "2026-07-15"
+      }
+    ]
   }
 ]

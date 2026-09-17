@@ -3,6 +3,7 @@ import { BUDGET_LABEL, FOLD_LABEL, HEIGHT_LABEL, USE_CASE_LABEL, type Answers } 
 import type { RankedResult, Recommendation } from '../lib/recommend'
 import { reasonsFor, type Reason } from '../lib/reasons'
 import ShareBar from './ShareBar.vue'
+import { priceDelta } from '../lib/priceDelta'
 
 const base = import.meta.env.BASE_URL
 
@@ -36,6 +37,7 @@ function reasons(rec: Recommendation): Reason[] {
           </h2>
           <p class="price">
             参考价 <span class="yen">¥</span>{{ rec.bike.priceCny }}
+            <span v-if="priceDelta(rec.bike)" :class="['price-delta', `price-delta-${priceDelta(rec.bike)!.direction}`]">{{ priceDelta(rec.bike)!.label }}</span>
             <small>· 更新于 {{ rec.bike.priceUpdatedAt.slice(0, 7) }}</small>
           </p>
         </div>

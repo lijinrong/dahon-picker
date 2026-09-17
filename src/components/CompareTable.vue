@@ -3,6 +3,7 @@ import { computed, onMounted, ref } from 'vue'
 import type { Bike } from '../lib/schema'
 import { parseIds } from '../lib/urlState'
 import RadarChart from './RadarChart.vue'
+import { priceDelta } from '../lib/priceDelta'
 
 const base = import.meta.env.BASE_URL
 const props = defineProps<{ bikes: Bike[] }>()
@@ -23,7 +24,10 @@ interface DiffRow {
 }
 
 const DIFF_ROWS: DiffRow[] = [
-  { label: '参考价', value: (b) => `¥${b.priceCny}` },
+  { label: '参考价', value: (b) => {
+    const d = priceDelta(b)
+    return d ? `¥${b.priceCny} ${d.label}` : `¥${b.priceCny}`
+  }},
   { label: '轮径', value: (b) => `${b.wheelSize} 寸` },
   { label: '重量', value: (b) => `${b.weightKg}kg` },
   { label: '变速', value: (b) => `${b.drivetrain.speeds} 速` },
@@ -71,7 +75,7 @@ const candidates = computed(() =>
           <span class="alias">{{ b.marketingName }}</span>
           <p v-if="b.highlights.length" class="card-highlight">{{ b.highlights[0] }}</p>
         </span>
-        <span class="price"><span class="yen">¥</span>{{ b.priceCny }}</span>
+        <span class="price"><span class="yen">¥</span>{{ b.priceCny }}<span v-if="priceDelta(b)" :class="['price-delta', `price-delta-${priceDelta(b)!.direction}`]">{{ priceDelta(b)!.label }}</span></span>
         <a :href="addUrl(b.slug)" class="btn-ghost-accent">加入对比</a>
       </li>
     </ul>

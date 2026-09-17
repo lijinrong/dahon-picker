@@ -41,6 +41,15 @@ export const bikeSchema = z
       .array(z.object({ char: z.string().min(1), meaning: z.string().min(1) }))
       .nullable(),
     specs: z.record(z.string()),
+    imageUrl: z.string().url().nullable(),
+    priceHistory: z
+      .array(
+        z.object({
+          price: z.number().int().positive(),
+          date: dateStr,
+        })
+      )
+      .default([]),
     affiliateUrl: z.string().url().nullable(),
     sources: z.array(z.string().min(1)).min(2, '参数/价格需至少 2 个来源交叉验证'),
     updatedAt: dateStr,

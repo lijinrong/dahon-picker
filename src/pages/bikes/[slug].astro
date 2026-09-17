@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro'
 import { loadBikes, loadNaming } from '../../lib/schema'
 import { decodeModel } from '../../lib/decode'
 import { productJsonLd, canonicalUrl } from '../../lib/seo'
+import { priceDelta } from '../../lib/priceDelta'
 import FoldedSizeViz from '../../components/FoldedSizeViz.astro'
 const base = import.meta.env.BASE_URL
 
@@ -17,6 +18,7 @@ const decode = decodeModel(bike.model, naming, loadBikes())
 const stars = (n: number) => '★'.repeat(n) + '☆'.repeat(5 - n)
 const bikeUrl = canonicalUrl(`bikes/${bike.slug}`)
 const jsonLd = productJsonLd(bike, bikeUrl)
+const delta = priceDelta(bike)
 ---
 <Base
   title={`${bike.model} ${bike.marketingName} · 参数与解读 | 大行选购器`}
@@ -25,9 +27,11 @@ const jsonLd = productJsonLd(bike, bikeUrl)
 >
   <article class="bike-detail">
     <header>
+      {bike.imageUrl && <img src={bike.imageUrl} alt={bike.marketingName} class="bike-hero-img" loading="eager" />}
       <h1>{bike.model}<span class="alias">{bike.marketingName}</span></h1>
       <p class="price">
         参考价 <span class="yen">¥</span>{bike.priceCny}
+        {delta && <span class={`price-delta price-delta-${delta.direction}`}>{delta.label}</span>}
         <small>· 更新于 {bike.priceUpdatedAt.slice(0, 7)}</small>
       </p>
       {bike.status === 'discontinued' && (
@@ -97,3 +101,7 @@ const jsonLd = productJsonLd(bike, bikeUrl)
     </footer>
   </article>
 </Base>
+
+<style>
+  .bike-hero-img { width: 100%; max-height: 320px; object-fit: cover; border-radius: var(--radius-card); margin-bottom: 1rem; }
+</style>

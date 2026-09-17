@@ -3,6 +3,7 @@ import { computed, ref } from 'vue'
 import type { Bike } from '../lib/schema'
 import { filterBikes, sortBikes, type BikeFilter, type SortKey } from '../lib/filter'
 import { USE_CASES, USE_CASE_LABEL } from '../lib/answers'
+import { priceDelta } from '../lib/priceDelta'
 
 const base = import.meta.env.BASE_URL
 
@@ -79,10 +80,11 @@ const rows = computed(() => {
     <p class="count">共 {{ rows.length }} 款</p>
     <ul class="bike-list stagger">
       <li v-for="b in rows" :key="b.slug" class="card">
+        <img v-if="b.imageUrl" :src="b.imageUrl" :alt="b.marketingName" class="card-img" loading="lazy" />
         <h2><a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a><span class="alias">{{ b.marketingName }}</span></h2>
         <p>{{ b.wheelSize }} 寸 · {{ b.drivetrain.speeds }} 速 · {{ b.weightKg }}kg</p>
         <p v-if="b.highlights.length" class="card-highlight">{{ b.highlights[0] }}</p>
-        <p class="price"><span class="yen">¥</span>{{ b.priceCny }}<small> · 更新于 {{ b.priceUpdatedAt.slice(0, 7) }}</small></p>
+        <p class="price"><span class="yen">¥</span>{{ b.priceCny }}<span v-if="priceDelta(b)" :class="['price-delta', `price-delta-${priceDelta(b)!.direction}`]">{{ priceDelta(b)!.label }}</span><small> · 更新于 {{ b.priceUpdatedAt.slice(0, 7) }}</small></p>
       </li>
     </ul>
     <p v-if="rows.length === 0" class="empty">没有符合条件的车型,试试放宽筛选。</p>

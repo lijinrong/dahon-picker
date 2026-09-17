@@ -127,12 +127,16 @@ a:hover { color: var(--color-accent); text-decoration: underline; }
   transform: translateY(-3px);
   box-shadow: var(--shadow-card-hover);
 }
+.card-img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: var(--radius-card) var(--radius-card) 0 0; margin: -1.25rem -1.25rem 0.75rem; width: calc(100% + 2.5rem); max-width: none; }
 
 .alias { color: var(--color-ink-soft); font-size: 0.85em; font-weight: 400; margin-inline-start: 0.5em; }
 .card-highlight { color: var(--color-ink-soft); font-size: var(--text-small); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin: 0.25em 0 0; }
 .price { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--color-primary); }
 .price small { color: var(--color-ink-soft); font-weight: 400; font-size: var(--text-small); }
 .price .yen { color: var(--color-accent); font-weight: 600; }
+.price-delta { font-size: var(--text-small); font-weight: 500; margin-left: 0.4em; }
+.price-delta-up { color: var(--color-cons-ink); }
+.price-delta-down { color: var(--color-pros-ink); }
 
 /* ── Buttons ── */
 .btn {

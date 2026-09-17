@@ -22,6 +22,8 @@ export function mkBike(overrides: Partial<Bike> = {}): Bike {
     cons: ['缺点一'],
     nameDecodeOverride: null,
     specs: { 车架: '铝合金' },
+    imageUrl: null,
+    priceHistory: [],
     affiliateUrl: null,
     sources: ['来源A', '来源B'],
     updatedAt: '2026-09-14',
