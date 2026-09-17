@@ -49,7 +49,10 @@ describe('ResultView', () => {
   })
   it('点击重新答题触发 restart', async () => {
     const w = mountedWith(bikes, mkAnswers())
-    await w.find('button.btn-ghost').trigger('click')
+    // ShareBar also renders btn-ghost; the restart button is the last one
+    const buttons = w.findAll('button.btn-ghost')
+    const restartBtn = buttons[buttons.length - 1]
+    await restartBtn.trigger('click')
     expect(w.emitted('restart')).toHaveLength(1)
   })
 })

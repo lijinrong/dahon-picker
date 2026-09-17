@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import type { Bike } from '../lib/schema'
 import { parseIds } from '../lib/urlState'
+import RadarChart from './RadarChart.vue'
 
 const base = import.meta.env.BASE_URL
 const props = defineProps<{ bikes: Bike[] }>()
@@ -68,6 +69,7 @@ const candidates = computed(() =>
         <span>
           <a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a>
           <span class="alias">{{ b.marketingName }}</span>
+          <p v-if="b.highlights.length" class="card-highlight">{{ b.highlights[0] }}</p>
         </span>
         <span class="price"><span class="yen">¥</span>{{ b.priceCny }}</span>
         <a :href="addUrl(b.slug)" class="btn-ghost-accent">加入对比</a>
@@ -77,6 +79,7 @@ const candidates = computed(() =>
 
   <!-- ≥2 款：完整对比表 -->
   <div v-else class="compare" aria-label="车型对比表">
+    <RadarChart :bikes="selected" />
     <table class="compare-table">
       <thead>
         <tr>

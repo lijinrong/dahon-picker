@@ -81,6 +81,7 @@ const rows = computed(() => {
       <li v-for="b in rows" :key="b.slug" class="card">
         <h2><a :href="`${base}bikes/${b.slug}`">{{ b.model }}</a><span class="alias">{{ b.marketingName }}</span></h2>
         <p>{{ b.wheelSize }} 寸 · {{ b.drivetrain.speeds }} 速 · {{ b.weightKg }}kg</p>
+        <p v-if="b.highlights.length" class="card-highlight">{{ b.highlights[0] }}</p>
         <p class="price"><span class="yen">¥</span>{{ b.priceCny }}<small> · 更新于 {{ b.priceUpdatedAt.slice(0, 7) }}</small></p>
       </li>
     </ul>

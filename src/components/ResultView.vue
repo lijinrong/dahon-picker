@@ -2,6 +2,7 @@
 import { BUDGET_LABEL, FOLD_LABEL, HEIGHT_LABEL, USE_CASE_LABEL, type Answers } from '../lib/answers'
 import type { RankedResult, Recommendation } from '../lib/recommend'
 import { reasonsFor, type Reason } from '../lib/reasons'
+import ShareBar from './ShareBar.vue'
 
 const base = import.meta.env.BASE_URL
 
@@ -16,6 +17,7 @@ function reasons(rec: Recommendation): Reason[] {
 <template>
   <section class="result">
     <h1>根据你的情况,推荐这几款</h1>
+    <ShareBar target-selector=".result" />
     <p class="summary">
       {{ BUDGET_LABEL[answers.budget] }} · {{ USE_CASE_LABEL[answers.useCase] }} ·
       {{ HEIGHT_LABEL[answers.height] }} · 折叠:{{ FOLD_LABEL[answers.fold] }}

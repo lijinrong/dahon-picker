@@ -1,0 +1,88 @@
+---
+import { parseFoldedSize } from '../lib/foldedSize'
+
+interface Props { size: string }
+const { size } = Astro.props
+const dim = parseFoldedSize(size)
+
+/** A4 paper: 21 × 29.7 cm */
+const A4_W = 21
+const A4_H = 29.7
+
+/** Scale factor: map the max dimension to ~180px */
+const MAX_PX = 180
+const maxCm = Math.max(dim.length, dim.width, A4_W, A4_H)
+const scale = MAX_PX / maxCm
+
+const bikeW = dim.parsed ? Math.round(dim.length * scale) : 0
+const bikeH = dim.parsed ? Math.round(dim.width * scale) : 0
+const a4W = Math.round(A4_W * scale)
+const a4H = Math.round(A4_H * scale)
+---
+
+{dim.parsed ? (
+  <div class="folded-size-viz">
+    <div class="folded-canvas" style={`width:${bikeW + a4W + 24}px;`}>
+      {/* Bike outline */}
+      <div class="folded-bike" style={`width:${bikeW}px; height:${bikeH}px;`}>
+        <span class="folded-dim-label">{dim.length}cm</span>
+        <span class="folded-dim-label folded-dim-side">{dim.width}cm</span>
+      </div>
+      {/* A4 reference */}
+      <div class="folded-ref" style={`width:${a4W}px; height:${a4H}px;`}>
+        <span class="folded-ref-label">A4</span>
+      </div>
+    </div>
+    <p class="folded-note">高 {dim.height}cm · 虚线为 A4 纸参考</p>
+  </div>
+) : (
+  <span>{size}</span>
+)}
+
+<style>
+  .folded-size-viz { margin: 0.5rem 0; }
+  .folded-canvas { display: flex; align-items: flex-end; gap: 12px; padding: 0.5rem 0; }
+  .folded-bike {
+    background: var(--color-primary);
+    opacity: 0.15;
+    border: 2px solid var(--color-primary);
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .folded-dim-label {
+    position: absolute;
+    bottom: -1.25em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: var(--text-small);
+    color: var(--color-ink-soft);
+    white-space: nowrap;
+  }
+  .folded-dim-side {
+    bottom: auto;
+    left: -0.25em;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: center;
+  }
+  .folded-ref {
+    border: 2px dashed var(--color-line);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+  }
+  .folded-ref-label {
+    font-size: var(--text-small);
+    color: var(--color-ink-soft);
+  }
+  .folded-note {
+    font-size: var(--text-small);
+    color: var(--color-ink-soft);
+    margin: 0.25em 0 0;
+  }
+</style>
