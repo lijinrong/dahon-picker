@@ -4,6 +4,6 @@ import sitemap from '@astrojs/sitemap'
 
 export default defineConfig({
   integrations: [vue(), sitemap()],
-  site: 'https://jrli.github.io',
+  site: 'https://lijinrong.github.io',
   base: '/dahon-picker/',
 })
