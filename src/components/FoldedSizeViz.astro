@@ -4,36 +4,31 @@ import { parseFoldedSize } from '../lib/foldedSize'
 interface Props { size: string }
 const { size } = Astro.props
 const dim = parseFoldedSize(size)
+const parsed = dim.parsed
 
-/** A4 paper: 21 × 29.7 cm */
-const A4_W = 21
-const A4_H = 29.7
-
-/** Scale factor: map the max dimension to ~180px */
+const A4_W = 29.7
+const A4_H = 21
 const MAX_PX = 180
-const maxCm = Math.max(dim.length, dim.width, A4_W, A4_H)
-const scale = MAX_PX / maxCm
-
-const bikeW = dim.parsed ? Math.round(dim.length * scale) : 0
-const bikeH = dim.parsed ? Math.round(dim.width * scale) : 0
-const a4W = Math.round(A4_W * scale)
-const a4H = Math.round(A4_H * scale)
+const maxCm = parsed ? Math.max(dim.length, dim.width) : 0
+const scale = maxCm > 0 ? MAX_PX / maxCm : 1
+const bikeW = parsed ? Math.round(dim.length * scale) : 0
+const bikeH = parsed ? Math.round(dim.width * scale) : 0
+const a4W = parsed ? Math.round(A4_W * scale) : 0
+const a4H = parsed ? Math.round(A4_H * scale) : 0
 ---
 
-{dim.parsed ? (
-  <div class="folded-size-viz">
-    <div class="folded-canvas" style={`width:${bikeW + a4W + 24}px;`}>
-      {/* Bike outline */}
-      <div class="folded-bike" style={`width:${bikeW}px; height:${bikeH}px;`}>
+{parsed ? (
+  <div class="folded-size-viz" style={`--bw:${bikeW}px;--bh:${bikeH}px;--aw:${a4W}px;--ah:${a4H}px`}>
+    <div class="folded-pair">
+      <div class="folded-bike">
         <span class="folded-dim-label">{dim.length}cm</span>
         <span class="folded-dim-label folded-dim-side">{dim.width}cm</span>
       </div>
-      {/* A4 reference */}
-      <div class="folded-ref" style={`width:${a4W}px; height:${a4H}px;`}>
+      <div class="folded-ref">
         <span class="folded-ref-label">A4</span>
       </div>
     </div>
-    <p class="folded-note">高 {dim.height}cm · 虚线为 A4 纸参考</p>
+    <p class="folded-note">高 {dim.height}cm · 虚线框为 A4 纸参考</p>
   </div>
 ) : (
   <span>{size}</span>
@@ -41,16 +36,39 @@ const a4H = Math.round(A4_H * scale)
 
 <style>
   .folded-size-viz { margin: 0.5rem 0; }
-  .folded-canvas { display: flex; align-items: flex-end; gap: 12px; padding: 0.5rem 0; }
+  .folded-pair {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.75rem;
+    margin: 0.5rem 0 0.25rem;
+  }
   .folded-bike {
+    width: var(--bw);
+    height: var(--bh);
+    position: relative;
     background: var(--color-primary);
-    opacity: 0.15;
+    opacity: 0.12;
     border: 2px solid var(--color-primary);
     border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .folded-ref {
+    width: var(--aw);
+    height: var(--ah);
     position: relative;
+    border: 2px dashed var(--color-line);
+    border-radius: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
+  }
+  .folded-ref-label {
+    font-size: var(--text-small);
+    color: var(--color-ink-soft);
+    background: var(--color-bg);
+    padding: 0 0.2em;
+    border-radius: 2px;
   }
   .folded-dim-label {
     position: absolute;
@@ -67,18 +85,6 @@ const a4H = Math.round(A4_H * scale)
     top: 50%;
     transform: translateY(-50%) rotate(-90deg);
     transform-origin: center;
-  }
-  .folded-ref {
-    border: 2px dashed var(--color-line);
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.7;
-  }
-  .folded-ref-label {
-    font-size: var(--text-small);
-    color: var(--color-ink-soft);
   }
   .folded-note {
     font-size: var(--text-small);
