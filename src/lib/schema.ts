@@ -41,7 +41,7 @@ export const bikeSchema = z
       .array(z.object({ char: z.string().min(1), meaning: z.string().min(1) }))
       .nullable(),
     specs: z.record(z.string()),
-    imageUrl: z.string().url().nullable(),
+    imageUrl: z.string().min(1).nullable(),
     priceHistory: z
       .array(
         z.object({
