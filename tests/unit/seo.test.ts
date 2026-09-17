@@ -1,27 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { canonicalUrl, websiteJsonLd, productJsonLd } from '../../src/lib/seo'
-import type { Bike } from '../../src/lib/schema'
-
-const baseBike: Bike = {
-  slug: 'test-bike',
-  model: 'KAA084',
-  marketingName: 'K3',
-  wheelSize: 16,
-  weightKg: 8.7,
-  priceCny: 3500,
-  priceUpdatedAt: '2026-09-01',
-  heightRangeCm: [155, 185],
-  status: 'active',
-  discontinuedInfo: null,
-  highlights: ['超轻便携', '城市通勤首选'],
-  pros: ['轻', '快'],
-  cons: ['贵'],
-  drivetrain: { speeds: 9, type: 'derailleur', climbScore: 3 },
-  folding: { mechanism: '纵折', foldedSize: '71×41×55cm', carryScore: 4 },
-  sources: ['dahon.com'],
-  specs: {},
-  updatedAt: '2026-09',
-}
+import { mkBike } from '../helpers'
 
 describe('canonicalUrl', () => {
   it('builds full URL from path', () => {
@@ -52,8 +31,9 @@ describe('websiteJsonLd', () => {
 
 describe('productJsonLd', () => {
   it('returns valid JSON-LD for Product', () => {
+    const bike = mkBike({ slug: 'test-bike', model: 'KAA084', marketingName: 'K3', priceCny: 3500 })
     const url = 'https://jrli.github.io/dahon-picker/bikes/test-bike'
-    const ld = JSON.parse(productJsonLd(baseBike, url))
+    const ld = JSON.parse(productJsonLd(bike, url))
     expect(ld['@type']).toBe('Product')
     expect(ld.name).toBe('KAA084 K3')
     expect(ld.brand.name).toBe('DAHON')
@@ -63,15 +43,19 @@ describe('productJsonLd', () => {
   })
 
   it('uses highlights for description', () => {
+    const bike = mkBike({ highlights: ['超轻便携', '城市通勤首选'] })
     const url = 'https://jrli.github.io/dahon-picker/bikes/test-bike'
-    const ld = JSON.parse(productJsonLd(baseBike, url))
+    const ld = JSON.parse(productJsonLd(bike, url))
     expect(ld.description).toContain('超轻便携')
   })
 
-  it('marks discontinued bikes as out of stock', () => {
-    const discontinued = { ...baseBike, status: 'discontinued' as const, discontinuedInfo: { year: 2024 } }
+  it('marks discontinued bikes as discontinued', () => {
+    const bike = mkBike({
+      status: 'discontinued',
+      discontinuedInfo: { lastPriceCny: 3500, year: 2024 },
+    })
     const url = 'https://jrli.github.io/dahon-picker/bikes/test-bike'
-    const ld = JSON.parse(productJsonLd(discontinued, url))
+    const ld = JSON.parse(productJsonLd(bike, url))
     expect(ld.offers.availability).toContain('Discontinued')
   })
 })
